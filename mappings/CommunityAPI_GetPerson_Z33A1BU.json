@@ -1,0 +1,45 @@
+{
+  "id": "0448ea67-4085-4701-b0bb-e9ecf17f4978",
+  "name": "community_api_getPerson_Z33A1BU",
+  "request": {
+    "url": "/secure/offenders/crn/Z33A1BU",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "offenderId": "6814869515",
+      "firstName": "Rozella",
+      "middleNames": [
+        "Riley"
+      ],
+      "surname": "Kovacek",
+      "preferredName": "Eliseo",
+      "dateOfBirth": "2022-04-06",
+      "gender": "Male",
+      "otherIds": {
+        "crn": "Z33A1BU",
+        "nomsNumber": "6DO89QY",
+        "mostRecentPrisonerNumber": "XRYLE"
+      },
+      "contactDetails": {},
+      "offenderProfile": {
+        "offenderLanguages": {},
+        "remandStatus": "Bail - Unconditional",
+        "previousConviction": {
+          "convictionDate": "2022-02-14T15:07:22.474Z",
+          "detail": {
+            "documentName": "PRE-CONS.pdf"
+          }
+        },
+        "disabilities": []
+      },
+      "softDeleted": false,
+      "currentDisposal": "1",
+      "partitionArea": "National Data",
+      "currentRestriction": false,
+      "currentExclusion": false,
+      "activeProbationManagedSentence": true
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "9c61ed29-6118-46a3-adfe-f820849a66cb",
+  "name": "community_api_getPerson_4ZUIHFX",
+  "request": {
+    "url": "/secure/offenders/crn/4ZUIHFX",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "offenderId": "7196202991",
+      "firstName": "Rosalee",
+      "middleNames": [
+        "Riley"
+      ],
+      "surname": "Hackett",
+      "preferredName": "Cecil",
+      "dateOfBirth": "2022-02-23",
+      "gender": "Female",
+      "otherIds": {
+        "crn": "4ZUIHFX",
+        "nomsNumber": "5A5C8WL",
+        "mostRecentPrisonerNumber": "51GVD"
+      },
+      "contactDetails": {},
+      "offenderProfile": {
+        "offenderLanguages": {},
+        "remandStatus": "Bail - Unconditional",
+        "previousConviction": {
+          "convictionDate": "2022-11-23T23:55:14.228Z",
+          "detail": {
+            "documentName": "PRE-CONS.pdf"
+          }
+        },
+        "disabilities": []
+      },
+      "softDeleted": false,
+      "currentDisposal": "1",
+      "partitionArea": "National Data",
+      "currentRestriction": false,
+      "currentExclusion": false,
+      "activeProbationManagedSentence": true
+    }
+  }
+}

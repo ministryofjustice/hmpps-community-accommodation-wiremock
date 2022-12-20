@@ -1,0 +1,45 @@
+{
+  "id": "d709dae2-b6b8-453a-b650-4ad89f29b15d",
+  "name": "community_api_getPerson_YRPARSH",
+  "request": {
+    "url": "/secure/offenders/crn/YRPARSH",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "offenderId": "2954218885",
+      "firstName": "Nyah",
+      "middleNames": [
+        "Kai"
+      ],
+      "surname": "Gutmann",
+      "preferredName": "Marcus",
+      "dateOfBirth": "2022-11-13",
+      "gender": "Prefer not to say",
+      "otherIds": {
+        "crn": "YRPARSH",
+        "nomsNumber": "HBVE0LJ",
+        "mostRecentPrisonerNumber": "NT932"
+      },
+      "contactDetails": {},
+      "offenderProfile": {
+        "offenderLanguages": {},
+        "remandStatus": "Bail - Unconditional",
+        "previousConviction": {
+          "convictionDate": "2022-04-06T20:29:56.270Z",
+          "detail": {
+            "documentName": "PRE-CONS.pdf"
+          }
+        },
+        "disabilities": []
+      },
+      "softDeleted": false,
+      "currentDisposal": "1",
+      "partitionArea": "National Data",
+      "currentRestriction": false,
+      "currentExclusion": false,
+      "activeProbationManagedSentence": true
+    }
+  }
+}

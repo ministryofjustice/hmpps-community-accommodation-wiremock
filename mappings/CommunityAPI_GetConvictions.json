@@ -1,0 +1,509 @@
+{
+  "id": "4f63e4f3-f327-4052-9963-471497157739",
+  "request": {
+    "urlPathPattern": "/secure/offenders/crn/(.*)/convictions",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      {
+        "convictionId": 2500297061,
+        "index": "3",
+        "active": false,
+        "inBreach": false,
+        "failureToComplyCount": 0,
+        "awaitingPsr": false,
+        "convictionDate": "2019-09-16",
+        "referralDate": "2019-09-16",
+        "offences": [
+          {
+            "offenceId": "M2500297061",
+            "mainOffence": true,
+            "detail": {
+              "code": "10400",
+              "description": "Assault on Police Officer - 10400",
+              "mainCategoryCode": "104",
+              "mainCategoryDescription": "Assault on Police Officer",
+              "mainCategoryAbbreviation": "Assault on Police Officer",
+              "ogrsOffenceCategory": "Violence",
+              "subCategoryCode": "00",
+              "subCategoryDescription": "Assault on Police Officer",
+              "form20Code": "88"
+            },
+            "offenceDate": "2019-09-09T00:00:00",
+            "offenceCount": 1,
+            "offenderId": 2500343964,
+            "createdDatetime": "2019-09-17T00:00:00",
+            "lastUpdatedDatetime": "2019-09-17T00:00:00"
+          }
+        ],
+        "sentence": {
+          "sentenceId": 2500284169,
+          "description": "Absolute/Conditional Discharge",
+          "originalLength": 0,
+          "originalLengthUnits": "Months",
+          "defaultLength": 0,
+          "lengthInDays": 0,
+          "expectedSentenceEndDate": "2019-09-15",
+          "startDate": "2019-09-16",
+          "terminationDate": "2019-09-17",
+          "terminationReason": "Auto Terminated",
+          "sentenceType": {
+            "code": "NP",
+            "description": "Absolute/Conditional Discharge"
+          },
+          "failureToComplyLimit": 2,
+          "cja2003Order": true,
+          "legacyOrder": true
+        },
+        "latestCourtAppearanceOutcome": {
+          "code": "412",
+          "description": "Absolute/Conditional Discharge"
+        },
+        "responsibleCourt": {
+          "courtId": 1500004905,
+          "code": "SHEFMC",
+          "selectable": true,
+          "courtName": "Sheffield Magistrates Court",
+          "telephoneNumber": "0300 047 0777",
+          "fax": "0114 2756 373",
+          "buildingName": "Castle Street",
+          "town": "Sheffield",
+          "county": "South Yorkshire",
+          "postcode": "S3 8LU",
+          "country": "England",
+          "courtTypeId": 310,
+          "createdDatetime": "2014-05-29T21:50:16",
+          "lastUpdatedDatetime": "2019-05-10T23:24:48",
+          "probationAreaId": 1500001001,
+          "probationArea": {
+            "code": "N02",
+            "description": "NPS North East"
+          },
+          "courtType": {
+            "code": "MAG",
+            "description": "Magistrates Court"
+          }
+        },
+        "courtAppearance": {
+          "courtAppearanceId": 2500319107,
+          "appearanceDate": "2019-09-16T00:00:00",
+          "courtCode": "SHEFMC",
+          "courtName": "Sheffield Magistrates Court",
+          "appearanceType": {
+            "code": "S",
+            "description": "Sentence"
+          },
+          "crn": "X320741"
+        },
+        "orderManagers": [
+          {
+            "probationAreaId": 1500001001,
+            "teamId": 1500119949,
+            "officerId": 2500348506,
+            "name": "Unallocated Staff(N02) Staff",
+            "staffCode": "N02UATU",
+            "dateStartOfAllocation": "2019-09-16T00:00:00",
+            "teamCode": "N02UAT",
+            "probationAreaCode": "N02"
+          }
+        ]
+      },
+      {
+        "convictionId": 2500295345,
+        "index": "2",
+        "active": true,
+        "inBreach": false,
+        "failureToComplyCount": 0,
+        "awaitingPsr": false,
+        "convictionDate": "2019-09-03",
+        "referralDate": "2018-09-04",
+        "offences": [
+          {
+            "offenceId": "M2500295343",
+            "mainOffence": true,
+            "detail": {
+              "code": "00102",
+              "description": "Murder (incl abroad) of infants under 1 year of age - 00102",
+              "mainCategoryCode": "001",
+              "mainCategoryDescription": "Murder",
+              "mainCategoryAbbreviation": "Murder",
+              "ogrsOffenceCategory": "Violence",
+              "subCategoryCode": "02",
+              "subCategoryDescription": "Murder of infants under 1 year of age",
+              "form20Code": "20"
+            },
+            "offenceDate": "2018-08-04T00:00:00",
+            "offenceCount": 1,
+            "offenderId": 2500343964,
+            "createdDatetime": "2019-09-04T00:00:00",
+            "lastUpdatedDatetime": "2019-09-04T00:00:00"
+          },
+          {
+            "offenceId": "A2500108084",
+            "mainOffence": false,
+            "detail": {
+              "code": "02801",
+              "description": "Burglary (dwelling) with intent to commit, or the commission of an offence triable only on indictment - 02801",
+              "mainCategoryCode": "028",
+              "mainCategoryDescription": "Burglary in a dwelling",
+              "mainCategoryAbbreviation": "Burglary in a dwelling",
+              "ogrsOffenceCategory": "Burglary (Domestic)",
+              "subCategoryCode": "01",
+              "subCategoryDescription": "Burglary (dwelling) with intent to commit, or the commission of, an offence triable only on indictment",
+              "form20Code": "40"
+            },
+            "offenceDate": "2019-09-02T00:00:00",
+            "offenceCount": 3,
+            "createdDatetime": "2019-09-04T00:00:00",
+            "lastUpdatedDatetime": "2019-09-04T00:00:00"
+          }
+        ],
+        "sentence": {
+          "sentenceId": 2500282335,
+          "description": "CJA - Indeterminate Public Prot.",
+          "originalLength": 5,
+          "originalLengthUnits": "Years",
+          "secondLength": 5,
+          "secondLengthUnits": "Years",
+          "defaultLength": 60,
+          "lengthInDays": 1826,
+          "expectedSentenceEndDate": "2024-09-03",
+          "startDate": "2019-09-20",
+          "sentenceType": {
+            "code": "SC",
+            "description": "CJA - Indeterminate Public Prot."
+          },
+          "additionalSentences": [
+            {
+              "additionalSentenceId": 2500002005,
+              "type": {
+                "code": "DISQ",
+                "description": "Disqualified from Driving"
+              },
+              "amount": 100,
+              "length": 6,
+              "notes": "Additional Sentence 1"
+            }
+          ],
+          "failureToComplyLimit": 3,
+          "cja2003Order": true,
+          "legacyOrder": false
+        },
+        "latestCourtAppearanceOutcome": {
+          "code": "303",
+          "description": "CJA - Indeterminate Public Prot."
+        },
+        "custody": {
+          "bookingNumber": "V74111",
+          "institution": {
+            "institutionId": 2500004521,
+            "isEstablishment": true,
+            "code": "BWIHMP",
+            "description": "Berwyn (HMP)",
+            "institutionName": "Berwyn (HMP)",
+            "establishmentType": {
+              "code": "E",
+              "description": "Prison"
+            },
+            "isPrivate": true,
+            "nomsPrisonInstitutionCode": "BWI"
+          },
+          "keyDates": {},
+          "status": {
+            "code": "D",
+            "description": "In Custody"
+          },
+          "sentenceStartDate": "2019-09-20"
+        },
+        "responsibleCourt": {
+          "courtId": 1500004905,
+          "code": "SHEFMC",
+          "selectable": true,
+          "courtName": "Sheffield Magistrates Court",
+          "telephoneNumber": "0300 047 0777",
+          "fax": "0114 2756 373",
+          "buildingName": "Castle Street",
+          "town": "Sheffield",
+          "county": "South Yorkshire",
+          "postcode": "S3 8LU",
+          "country": "England",
+          "courtTypeId": 310,
+          "createdDatetime": "2014-05-29T21:50:16",
+          "lastUpdatedDatetime": "2019-05-10T23:24:48",
+          "probationAreaId": 1500001001,
+          "probationArea": {
+            "code": "N02",
+            "description": "NPS North East"
+          },
+          "courtType": {
+            "code": "MAG",
+            "description": "Magistrates Court"
+          }
+        },
+        "courtAppearance": {
+          "courtAppearanceId": 2500316926,
+          "appearanceDate": "2019-09-04T00:00:00",
+          "courtCode": "SHEFMC",
+          "courtName": "Sheffield Magistrates Court",
+          "appearanceType": {
+            "code": "S",
+            "description": "Sentence"
+          },
+          "crn": "X320741"
+        },
+        "orderManagers": [
+          {
+            "probationAreaId": 1500001001,
+            "teamId": 1500119949,
+            "officerId": 2500346571,
+            "name": "Unallocated Staff(N02) Staff",
+            "staffCode": "N02UATU",
+            "dateStartOfAllocation": "2018-09-04T00:00:00",
+            "dateEndOfAllocation": "2019-09-04T00:00:00",
+            "teamCode": "N02UAT",
+            "probationAreaCode": "N02"
+          },
+          {
+            "probationAreaId": 1500001001,
+            "teamId": 2500002001,
+            "officerId": 2500346572,
+            "name": "Titus ZZ Cobio",
+            "staffCode": "N02P002",
+            "dateStartOfAllocation": "2019-09-04T00:00:00",
+            "gradeCode": "NPSQ",
+            "teamCode": "N02T01",
+            "probationAreaCode": "N02"
+          }
+        ]
+      },
+      {
+        "convictionId": 2500295343,
+        "index": "1",
+        "active": false,
+        "inBreach": false,
+        "failureToComplyCount": 0,
+        "awaitingPsr": false,
+        "convictionDate": "2017-06-01",
+        "referralDate": "2017-06-01",
+        "offences": [
+          {
+            "offenceId": "M2500295341",
+            "mainOffence": true,
+            "detail": {
+              "code": "05600",
+              "description": "Arson - 05600",
+              "mainCategoryCode": "056",
+              "mainCategoryDescription": "Arson",
+              "mainCategoryAbbreviation": "Arson",
+              "ogrsOffenceCategory": "Criminal damage",
+              "subCategoryCode": "00",
+              "subCategoryDescription": "Arson",
+              "form20Code": "58"
+            },
+            "offenceDate": "2017-05-01T00:00:00",
+            "offenceCount": 1,
+            "offenderId": 2500343964,
+            "createdDatetime": "2019-09-04T00:00:00",
+            "lastUpdatedDatetime": "2019-09-04T00:00:00"
+          }
+        ],
+        "sentence": {
+          "sentenceId": 2500282333,
+          "description": "CJA - Community Order",
+          "originalLength": 12,
+          "originalLengthUnits": "Months",
+          "defaultLength": 12,
+          "lengthInDays": 364,
+          "expectedSentenceEndDate": "2019-10-15",
+          "unpaidWork": {
+            "minutesOrdered": 3600,
+            "minutesCompleted": 360,
+            "appointments": {
+              "total": 5,
+              "attended": 2,
+              "acceptableAbsences": 1,
+              "unacceptableAbsences": 1,
+              "noOutcomeRecorded": 1
+            },
+            "status": "Terminated"
+          },
+          "startDate": "2017-06-01",
+          "terminationDate": "2017-12-01",
+          "terminationReason": "Completed - early good progress",
+          "sentenceType": {
+            "code": "SP",
+            "description": "CJA - Community Order"
+          },
+          "failureToComplyLimit": 2,
+          "cja2003Order": true,
+          "legacyOrder": false
+        },
+        "latestCourtAppearanceOutcome": {
+          "code": "201",
+          "description": "CJA - Community Order"
+        },
+        "responsibleCourt": {
+          "courtId": 1500004905,
+          "code": "SHEFMC",
+          "selectable": true,
+          "courtName": "Sheffield Magistrates Court",
+          "telephoneNumber": "0300 047 0777",
+          "fax": "0114 2756 373",
+          "buildingName": "Castle Street",
+          "town": "Sheffield",
+          "county": "South Yorkshire",
+          "postcode": "S3 8LU",
+          "country": "England",
+          "courtTypeId": 310,
+          "createdDatetime": "2014-05-29T21:50:16",
+          "lastUpdatedDatetime": "2019-05-10T23:24:48",
+          "probationAreaId": 1500001001,
+          "probationArea": {
+            "code": "N02",
+            "description": "NPS North East"
+          },
+          "courtType": {
+            "code": "MAG",
+            "description": "Magistrates Court"
+          }
+        },
+        "courtAppearance": {
+          "courtAppearanceId": 2500316923,
+          "appearanceDate": "2017-06-01T00:00:00",
+          "courtCode": "SHEFMC",
+          "courtName": "Sheffield Magistrates Court",
+          "appearanceType": {
+            "code": "S",
+            "description": "Sentence"
+          },
+          "crn": "X320741"
+        },
+        "orderManagers": [
+          {
+            "probationAreaId": 1500001001,
+            "teamId": 1500119949,
+            "officerId": 2500346569,
+            "name": "Unallocated Staff(N02) Staff",
+            "staffCode": "N02UATU",
+            "dateStartOfAllocation": "2017-06-01T00:00:00",
+            "teamCode": "N02UAT",
+            "probationAreaCode": "N02"
+          }
+        ]
+      },
+      {
+        "convictionId": 10002,
+        "index": "1",
+        "active": false,
+        "inBreach": false,
+        "failureToComplyCount": 0,
+        "awaitingPsr": false,
+        "convictionDate": "2017-06-01",
+        "referralDate": "2017-06-01",
+        "sentence": {
+          "sentenceId": 90002,
+          "description": "Absolute/Conditional Discharge",
+          "originalLength": 0,
+          "originalLengthUnits": "Months",
+          "defaultLength": 0,
+          "lengthInDays": 0,
+          "expectedSentenceEndDate": "2019-09-15",
+          "startDate": "2018-02-01",
+          "terminationDate": "2018-03-01",
+          "terminationReason": "Auto Terminated",
+          "sentenceType": {
+            "code": "NP",
+            "description": "Absolute/Conditional Discharge"
+          },
+          "failureToComplyLimit": 2,
+          "cja2003Order": true,
+          "legacyOrder": true
+        },
+        "responsibleCourt": {
+          "courtId": 1500004905,
+          "code": "SHEFMC",
+          "selectable": true,
+          "courtName": "Sheffield Magistrates Court",
+          "telephoneNumber": "0300 047 0777",
+          "fax": "0114 2756 373",
+          "buildingName": "Castle Street",
+          "town": "Sheffield",
+          "county": "South Yorkshire",
+          "postcode": "S3 8LU",
+          "country": "England",
+          "courtTypeId": 310,
+          "createdDatetime": "2014-05-29T21:50:16",
+          "lastUpdatedDatetime": "2019-05-10T23:24:48",
+          "probationAreaId": 1500001001,
+          "probationArea": {
+            "code": "N02",
+            "description": "NPS North East"
+          },
+          "courtType": {
+            "code": "MAG",
+            "description": "Magistrates Court"
+          }
+        }
+      },
+      {
+        "convictionId": 10003,
+        "index": "1",
+        "active": false,
+        "inBreach": false,
+        "failureToComplyCount": 0,
+        "awaitingPsr": false,
+        "convictionDate": "2017-06-01",
+        "referralDate": "2017-06-01",
+        "sentence": {
+          "sentenceId": 90003,
+          "description": "Absolute/Conditional Discharge",
+          "originalLength": 0,
+          "originalLengthUnits": "Months",
+          "defaultLength": 0,
+          "lengthInDays": 0,
+          "expectedSentenceEndDate": "2019-09-15",
+          "startDate": "2018-02-02",
+          "terminationDate": "2018-02-22",
+          "terminationReason": "Auto Terminated",
+          "sentenceType": {
+            "code": "NP",
+            "description": "Absolute/Conditional Discharge"
+          },
+          "failureToComplyLimit": 2,
+          "cja2003Order": true,
+          "legacyOrder": true
+        },
+        "responsibleCourt": {
+          "courtId": 1500004905,
+          "code": "SHEFMC",
+          "selectable": true,
+          "courtName": "Sheffield Magistrates Court",
+          "telephoneNumber": "0300 047 0777",
+          "fax": "0114 2756 373",
+          "buildingName": "Castle Street",
+          "town": "Sheffield",
+          "county": "South Yorkshire",
+          "postcode": "S3 8LU",
+          "country": "England",
+          "courtTypeId": 310,
+          "createdDatetime": "2014-05-29T21:50:16",
+          "lastUpdatedDatetime": "2019-05-10T23:24:48",
+          "probationAreaId": 1500001001,
+          "probationArea": {
+            "code": "N02",
+            "description": "NPS North East"
+          },
+          "courtType": {
+            "code": "MAG",
+            "description": "Magistrates Court"
+          }
+        }
+      }
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

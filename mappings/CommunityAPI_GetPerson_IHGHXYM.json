@@ -1,0 +1,45 @@
+{
+  "id": "2f8ff09b-435a-442a-a610-15fd6ba8950b",
+  "name": "community_api_getPerson_IHGHXYM",
+  "request": {
+    "url": "/secure/offenders/crn/IHGHXYM",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "offenderId": "3765661115",
+      "firstName": "Stacey",
+      "middleNames": [
+        "Reagan"
+      ],
+      "surname": "Bode",
+      "preferredName": "Alex",
+      "dateOfBirth": "2022-11-30",
+      "gender": "Male",
+      "otherIds": {
+        "crn": "IHGHXYM",
+        "nomsNumber": "KWAPTC7",
+        "mostRecentPrisonerNumber": "MLJTS"
+      },
+      "contactDetails": {},
+      "offenderProfile": {
+        "offenderLanguages": {},
+        "remandStatus": "Bail - Unconditional",
+        "previousConviction": {
+          "convictionDate": "2022-06-02T15:09:38.508Z",
+          "detail": {
+            "documentName": "PRE-CONS.pdf"
+          }
+        },
+        "disabilities": []
+      },
+      "softDeleted": false,
+      "currentDisposal": "1",
+      "partitionArea": "National Data",
+      "currentRestriction": false,
+      "currentExclusion": false,
+      "activeProbationManagedSentence": true
+    }
+  }
+}

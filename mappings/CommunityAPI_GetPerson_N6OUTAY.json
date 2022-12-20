@@ -1,0 +1,45 @@
+{
+  "id": "6979302d-22cf-49aa-b647-4862d28299ca",
+  "name": "community_api_getPerson_N6OUTAY",
+  "request": {
+    "url": "/secure/offenders/crn/N6OUTAY",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "offenderId": "6449450552",
+      "firstName": "Christa",
+      "middleNames": [
+        "Jordan"
+      ],
+      "surname": "Ledner",
+      "preferredName": "Gabriella",
+      "dateOfBirth": "2022-12-10",
+      "gender": "Other",
+      "otherIds": {
+        "crn": "N6OUTAY",
+        "nomsNumber": "HIR0PIN",
+        "mostRecentPrisonerNumber": "IKRSD"
+      },
+      "contactDetails": {},
+      "offenderProfile": {
+        "offenderLanguages": {},
+        "remandStatus": "Bail - Unconditional",
+        "previousConviction": {
+          "convictionDate": "2022-08-15T02:18:50.878Z",
+          "detail": {
+            "documentName": "PRE-CONS.pdf"
+          }
+        },
+        "disabilities": []
+      },
+      "softDeleted": false,
+      "currentDisposal": "1",
+      "partitionArea": "National Data",
+      "currentRestriction": false,
+      "currentExclusion": false,
+      "activeProbationManagedSentence": true
+    }
+  }
+}

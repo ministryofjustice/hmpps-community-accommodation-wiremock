@@ -1,0 +1,45 @@
+{
+  "id": "bebfa8a5-4468-41c4-9e98-d0cd7ce151f9",
+  "name": "community_api_getPerson_HRV83TE",
+  "request": {
+    "url": "/secure/offenders/crn/HRV83TE",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "offenderId": "7182517629",
+      "firstName": "Nakia",
+      "middleNames": [
+        "Skyler"
+      ],
+      "surname": "Prosacco",
+      "preferredName": "Ana",
+      "dateOfBirth": "2022-04-22",
+      "gender": "Male",
+      "otherIds": {
+        "crn": "HRV83TE",
+        "nomsNumber": "N1RRJZU",
+        "mostRecentPrisonerNumber": "MY5Q3"
+      },
+      "contactDetails": {},
+      "offenderProfile": {
+        "offenderLanguages": {},
+        "remandStatus": "Bail - Unconditional",
+        "previousConviction": {
+          "convictionDate": "2022-03-20T11:57:34.935Z",
+          "detail": {
+            "documentName": "PRE-CONS.pdf"
+          }
+        },
+        "disabilities": []
+      },
+      "softDeleted": false,
+      "currentDisposal": "1",
+      "partitionArea": "National Data",
+      "currentRestriction": false,
+      "currentExclusion": false,
+      "activeProbationManagedSentence": true
+    }
+  }
+}

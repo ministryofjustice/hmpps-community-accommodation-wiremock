@@ -1,0 +1,45 @@
+{
+  "id": "3f438374-b3f3-4be8-b467-6458a33b9cda",
+  "name": "community_api_getPerson_52W7TQG",
+  "request": {
+    "url": "/secure/offenders/crn/52W7TQG",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "offenderId": "1755132216",
+      "firstName": "Tristin",
+      "middleNames": [
+        "River"
+      ],
+      "surname": "Satterfield",
+      "preferredName": "Malvina",
+      "dateOfBirth": "2022-04-17",
+      "gender": "Prefer not to say",
+      "otherIds": {
+        "crn": "52W7TQG",
+        "nomsNumber": "5HBWEG1",
+        "mostRecentPrisonerNumber": "D9TYS"
+      },
+      "contactDetails": {},
+      "offenderProfile": {
+        "offenderLanguages": {},
+        "remandStatus": "Bail - Unconditional",
+        "previousConviction": {
+          "convictionDate": "2022-07-30T04:10:12.375Z",
+          "detail": {
+            "documentName": "PRE-CONS.pdf"
+          }
+        },
+        "disabilities": []
+      },
+      "softDeleted": false,
+      "currentDisposal": "1",
+      "partitionArea": "National Data",
+      "currentRestriction": false,
+      "currentExclusion": false,
+      "activeProbationManagedSentence": true
+    }
+  }
+}

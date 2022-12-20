@@ -1,0 +1,45 @@
+{
+  "id": "14b701fe-677f-4dd4-87e9-d12ce86c40e1",
+  "name": "community_api_getPerson_315VWWC",
+  "request": {
+    "url": "/secure/offenders/crn/315VWWC",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "offenderId": "8484625583",
+      "firstName": "Tate",
+      "middleNames": [
+        "Kennedy"
+      ],
+      "surname": "Homenick",
+      "preferredName": "Demetris",
+      "dateOfBirth": "2022-05-01",
+      "gender": "Female",
+      "otherIds": {
+        "crn": "315VWWC",
+        "nomsNumber": "M59CS58",
+        "mostRecentPrisonerNumber": "ZQCBD"
+      },
+      "contactDetails": {},
+      "offenderProfile": {
+        "offenderLanguages": {},
+        "remandStatus": "Bail - Unconditional",
+        "previousConviction": {
+          "convictionDate": "2022-06-08T09:05:25.228Z",
+          "detail": {
+            "documentName": "PRE-CONS.pdf"
+          }
+        },
+        "disabilities": []
+      },
+      "softDeleted": false,
+      "currentDisposal": "1",
+      "partitionArea": "National Data",
+      "currentRestriction": false,
+      "currentExclusion": false,
+      "activeProbationManagedSentence": true
+    }
+  }
+}

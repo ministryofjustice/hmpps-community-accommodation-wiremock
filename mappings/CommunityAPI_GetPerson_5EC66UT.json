@@ -1,0 +1,45 @@
+{
+  "id": "42ec48b4-0378-4e57-a67f-944a59ee4834",
+  "name": "community_api_getPerson_5EC66UT",
+  "request": {
+    "url": "/secure/offenders/crn/5EC66UT",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "offenderId": "8465094569",
+      "firstName": "Berneice",
+      "middleNames": [
+        "London"
+      ],
+      "surname": "Cassin",
+      "preferredName": "Ana",
+      "dateOfBirth": "2022-03-14",
+      "gender": "Other",
+      "otherIds": {
+        "crn": "5EC66UT",
+        "nomsNumber": "530X5EC",
+        "mostRecentPrisonerNumber": "5WKFA"
+      },
+      "contactDetails": {},
+      "offenderProfile": {
+        "offenderLanguages": {},
+        "remandStatus": "Bail - Unconditional",
+        "previousConviction": {
+          "convictionDate": "2022-05-11T14:03:06.989Z",
+          "detail": {
+            "documentName": "PRE-CONS.pdf"
+          }
+        },
+        "disabilities": []
+      },
+      "softDeleted": false,
+      "currentDisposal": "1",
+      "partitionArea": "National Data",
+      "currentRestriction": false,
+      "currentExclusion": false,
+      "activeProbationManagedSentence": true
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "f4ff0df9-8885-45aa-a909-b8b0fa505bd0",
+  "name": "community_api_getPerson_PR5E5Y2",
+  "request": {
+    "url": "/secure/offenders/crn/PR5E5Y2",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "offenderId": "4428155372",
+      "firstName": "Geovanny",
+      "middleNames": [
+        "Bailey"
+      ],
+      "surname": "Gleichner",
+      "preferredName": "Frieda",
+      "dateOfBirth": "2022-11-26",
+      "gender": "Male",
+      "otherIds": {
+        "crn": "PR5E5Y2",
+        "nomsNumber": "M9XWJ1S",
+        "mostRecentPrisonerNumber": "KGSCJ"
+      },
+      "contactDetails": {},
+      "offenderProfile": {
+        "offenderLanguages": {},
+        "remandStatus": "Bail - Unconditional",
+        "previousConviction": {
+          "convictionDate": "2022-11-03T23:43:35.926Z",
+          "detail": {
+            "documentName": "PRE-CONS.pdf"
+          }
+        },
+        "disabilities": []
+      },
+      "softDeleted": false,
+      "currentDisposal": "1",
+      "partitionArea": "National Data",
+      "currentRestriction": false,
+      "currentExclusion": false,
+      "activeProbationManagedSentence": true
+    }
+  }
+}

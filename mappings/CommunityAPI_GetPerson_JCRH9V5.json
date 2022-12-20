@@ -1,0 +1,45 @@
+{
+  "id": "f3ab9f47-29db-4dfd-856a-c46a033fd19d",
+  "name": "community_api_getPerson_JCRH9V5",
+  "request": {
+    "url": "/secure/offenders/crn/JCRH9V5",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "offenderId": "3590473911",
+      "firstName": "Robbie",
+      "middleNames": [
+        "Leslie"
+      ],
+      "surname": "O'Hara",
+      "preferredName": "Elsie",
+      "dateOfBirth": "2022-02-24",
+      "gender": "Male",
+      "otherIds": {
+        "crn": "JCRH9V5",
+        "nomsNumber": "VTDINBA",
+        "mostRecentPrisonerNumber": "JT2HR"
+      },
+      "contactDetails": {},
+      "offenderProfile": {
+        "offenderLanguages": {},
+        "remandStatus": "Bail - Unconditional",
+        "previousConviction": {
+          "convictionDate": "2022-10-27T23:49:39.407Z",
+          "detail": {
+            "documentName": "PRE-CONS.pdf"
+          }
+        },
+        "disabilities": []
+      },
+      "softDeleted": false,
+      "currentDisposal": "1",
+      "partitionArea": "National Data",
+      "currentRestriction": false,
+      "currentExclusion": false,
+      "activeProbationManagedSentence": true
+    }
+  }
+}

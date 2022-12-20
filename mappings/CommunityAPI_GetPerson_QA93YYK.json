@@ -1,0 +1,45 @@
+{
+  "id": "8e872899-b626-43f0-8ee9-4745e87b4c7a",
+  "name": "community_api_getPerson_QA93YYK",
+  "request": {
+    "url": "/secure/offenders/crn/QA93YYK",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "offenderId": "1836247825",
+      "firstName": "Kaylee",
+      "middleNames": [
+        "Drew"
+      ],
+      "surname": "Frami",
+      "preferredName": "Delbert",
+      "dateOfBirth": "2022-11-21",
+      "gender": "Prefer not to say",
+      "otherIds": {
+        "crn": "QA93YYK",
+        "nomsNumber": "YX2YNT2",
+        "mostRecentPrisonerNumber": "8GO1M"
+      },
+      "contactDetails": {},
+      "offenderProfile": {
+        "offenderLanguages": {},
+        "remandStatus": "Bail - Unconditional",
+        "previousConviction": {
+          "convictionDate": "2022-09-24T03:23:51.552Z",
+          "detail": {
+            "documentName": "PRE-CONS.pdf"
+          }
+        },
+        "disabilities": []
+      },
+      "softDeleted": false,
+      "currentDisposal": "1",
+      "partitionArea": "National Data",
+      "currentRestriction": false,
+      "currentExclusion": false,
+      "activeProbationManagedSentence": true
+    }
+  }
+}

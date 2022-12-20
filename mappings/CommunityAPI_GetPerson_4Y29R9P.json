@@ -1,0 +1,45 @@
+{
+  "id": "7298c040-06c6-46b3-b17c-1cef23c378cf",
+  "name": "community_api_getPerson_4Y29R9P",
+  "request": {
+    "url": "/secure/offenders/crn/4Y29R9P",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "offenderId": "9430466263",
+      "firstName": "Greta",
+      "middleNames": [
+        "Hayden"
+      ],
+      "surname": "Kshlerin",
+      "preferredName": "Leland",
+      "dateOfBirth": "2022-08-12",
+      "gender": "Female",
+      "otherIds": {
+        "crn": "4Y29R9P",
+        "nomsNumber": "XWU5JWQ",
+        "mostRecentPrisonerNumber": "9GJ67"
+      },
+      "contactDetails": {},
+      "offenderProfile": {
+        "offenderLanguages": {},
+        "remandStatus": "Bail - Unconditional",
+        "previousConviction": {
+          "convictionDate": "2022-10-24T12:45:11.170Z",
+          "detail": {
+            "documentName": "PRE-CONS.pdf"
+          }
+        },
+        "disabilities": []
+      },
+      "softDeleted": false,
+      "currentDisposal": "1",
+      "partitionArea": "National Data",
+      "currentRestriction": false,
+      "currentExclusion": false,
+      "activeProbationManagedSentence": true
+    }
+  }
+}

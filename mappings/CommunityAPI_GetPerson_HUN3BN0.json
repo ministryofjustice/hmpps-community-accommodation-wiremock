@@ -1,0 +1,45 @@
+{
+  "id": "a6cac9fc-6c32-4f3f-9af4-6380030374ad",
+  "name": "community_api_getPerson_HUN3BN0",
+  "request": {
+    "url": "/secure/offenders/crn/HUN3BN0",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "offenderId": "4080765472",
+      "firstName": "Mariam",
+      "middleNames": [
+        "Greer"
+      ],
+      "surname": "Rutherford",
+      "preferredName": "Kelvin",
+      "dateOfBirth": "2022-08-13",
+      "gender": "Female",
+      "otherIds": {
+        "crn": "HUN3BN0",
+        "nomsNumber": "YCSW8BD",
+        "mostRecentPrisonerNumber": "Q8UTQ"
+      },
+      "contactDetails": {},
+      "offenderProfile": {
+        "offenderLanguages": {},
+        "remandStatus": "Bail - Unconditional",
+        "previousConviction": {
+          "convictionDate": "2022-11-05T01:14:06.120Z",
+          "detail": {
+            "documentName": "PRE-CONS.pdf"
+          }
+        },
+        "disabilities": []
+      },
+      "softDeleted": false,
+      "currentDisposal": "1",
+      "partitionArea": "National Data",
+      "currentRestriction": false,
+      "currentExclusion": false,
+      "activeProbationManagedSentence": true
+    }
+  }
+}

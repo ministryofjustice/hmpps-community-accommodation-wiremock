@@ -1,0 +1,106 @@
+{
+  "id": "9617bcb6-cc39-40da-88a3-cfb09b696282",
+  "name": "secure_offenders_crn_x320741_registrations",
+  "request": {
+    "urlPathPattern": "/secure/offenders/crn/(.*)/registrations",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "registrations": [
+        {
+          "registrationId": 2500155758,
+          "offenderId": 2500343964,
+          "register": {
+            "code": "5",
+            "description": "Public Protection"
+          },
+          "type": {
+            "code": "MAPP",
+            "description": "MAPPA"
+          },
+          "riskColour": "Red",
+          "startDate": "2021-02-01",
+          "nextReviewDate": "2021-05-01",
+          "reviewPeriodMonths": 3,
+          "notes": "X320741 registering MAPPA cat 2 level 2",
+          "registeringTeam": {
+            "code": "N02AAM",
+            "description": "OMIC OMU A "
+          },
+          "registeringOfficer": {
+            "code": "N02AAMU",
+            "forenames": "Unallocated",
+            "surname": "Staff",
+            "unallocated": true
+          },
+          "registeringProbationArea": {
+            "code": "N02",
+            "description": "NPS North East"
+          },
+          "registerLevel": {
+            "code": "M2",
+            "description": "MAPPA Level 2"
+          },
+          "registerCategory": {
+            "code": "M2",
+            "description": "MAPPA Cat 2"
+          },
+          "warnUser": false,
+          "active": true,
+          "numberOfPreviousDeregistrations": 0
+        },
+        {
+          "registrationId": 2500094760,
+          "offenderId": 2500343964,
+          "register": {
+            "code": "5",
+            "description": "Public Protection"
+          },
+          "type": {
+            "code": "REG15",
+            "description": "Risk to Known Adult"
+          },
+          "riskColour": "Amber",
+          "startDate": "2019-10-11",
+          "nextReviewDate": "2020-04-08",
+          "reviewPeriodMonths": 6,
+          "notes": "Bad",
+          "registeringTeam": {
+            "code": "N02T01",
+            "description": "OMU A "
+          },
+          "registeringOfficer": {
+            "code": "N02P008",
+            "forenames": "Alfie ZZ",
+            "surname": "Rhenal",
+            "unallocated": false
+          },
+          "registeringProbationArea": {
+            "code": "N02",
+            "description": "NPS North East"
+          },
+          "warnUser": false,
+          "active": true,
+          "numberOfPreviousDeregistrations": 0
+        }
+      ]
+    },
+    "headers": {
+      "X-Content-Type-Options": "nosniff",
+      "X-XSS-Protection": "1; mode=block",
+      "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+      "Pragma": "no-cache",
+      "Expires": "0",
+      "X-Frame-Options": "DENY",
+      "vary": "accept-encoding",
+      "Content-Type": "application/json",
+      "Date": "Mon, 19 Dec 2022 16:16:21 GMT",
+      "Keep-Alive": "timeout=60"
+    }
+  },
+  "uuid": "9617bcb6-cc39-40da-88a3-cfb09b696282",
+  "persistent": true,
+  "insertionIndex": 12
+}

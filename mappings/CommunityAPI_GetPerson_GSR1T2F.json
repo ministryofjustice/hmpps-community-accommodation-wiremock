@@ -1,0 +1,45 @@
+{
+  "id": "eb687e0f-3405-47af-b44f-ab49df45c2de",
+  "name": "community_api_getPerson_GSR1T2F",
+  "request": {
+    "url": "/secure/offenders/crn/GSR1T2F",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "offenderId": "6771554086",
+      "firstName": "Mattie",
+      "middleNames": [
+        "Reagan"
+      ],
+      "surname": "Goldner",
+      "preferredName": "Kaleigh",
+      "dateOfBirth": "2022-04-27",
+      "gender": "Female",
+      "otherIds": {
+        "crn": "GSR1T2F",
+        "nomsNumber": "KXTJQEF",
+        "mostRecentPrisonerNumber": "EQ6J0"
+      },
+      "contactDetails": {},
+      "offenderProfile": {
+        "offenderLanguages": {},
+        "remandStatus": "Bail - Unconditional",
+        "previousConviction": {
+          "convictionDate": "2022-09-24T14:07:16.777Z",
+          "detail": {
+            "documentName": "PRE-CONS.pdf"
+          }
+        },
+        "disabilities": []
+      },
+      "softDeleted": false,
+      "currentDisposal": "1",
+      "partitionArea": "National Data",
+      "currentRestriction": false,
+      "currentExclusion": false,
+      "activeProbationManagedSentence": true
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "a8811802-dd82-4349-ae3c-2be9c6ff6432",
+  "request": {
+    "urlPathPattern": "/api/offenders/(.*)/adjudications",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "results": [
+        {
+          "adjudicationNumber": -3002,
+          "reportTime": "2019-10-25T00:05:00",
+          "agencyIncidentId": -3002,
+          "agencyId": "BXI",
+          "partySeq": 3,
+          "adjudicationCharges": [
+            {
+              "oicChargeId": "5139/9",
+              "offenceCode": "51:8D",
+              "offenceDescription": "Fails to comply with any condition upon which he is temporarily released under rule 9 - failure to comply with conditions of temp release"
+            }
+          ]
+        },
+        {
+          "adjudicationNumber": -3001,
+          "reportTime": "2019-09-25T00:04:00",
+          "agencyIncidentId": -3001,
+          "agencyId": "LEI",
+          "partySeq": 2,
+          "adjudicationCharges": [
+            {
+              "oicChargeId": "5139/8",
+              "offenceCode": "51:8D",
+              "offenceDescription": "Fails to comply with any condition upon which he is temporarily released under rule 9 - failure to comply with conditions of temp release"
+            }
+          ]
+        },
+        {
+          "adjudicationNumber": -3,
+          "reportTime": "2019-08-25T00:03:00",
+          "agencyIncidentId": -3,
+          "agencyId": "MDI",
+          "partySeq": 1,
+          "adjudicationCharges": [
+            {
+              "oicChargeId": "5139/4",
+              "offenceCode": "51:2D",
+              "offenceDescription": "Detains any person against his will - detention against will of staff (not prison offr)",
+              "findingCode": "PROVED"
+            }
+          ]
+        }
+      ],
+      "offences": [
+        {
+          "id": "85",
+          "code": "51:2D",
+          "description": "Detains any person against his will - detention against will of staff (not prison offr)"
+        },
+        {
+          "id": "86",
+          "code": "51:8D",
+          "description": "Fails to comply with any condition upon which he is temporarily released under rule 9 - failure to comply with conditions of temp release"
+        }
+      ],
+      "agencies": [
+        {
+          "agencyId": "LEI",
+          "description": "Leeds",
+          "agencyType": "INST",
+          "active": true
+        },
+        {
+          "agencyId": "MDI",
+          "description": "Moorland",
+          "agencyType": "INST",
+          "active": true
+        },
+        {
+          "agencyId": "BXI",
+          "description": "Brixton",
+          "agencyType": "INST",
+          "active": true
+        }
+      ]
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
