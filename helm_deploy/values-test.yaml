@@ -1,0 +1,16 @@
+---
+# Per environment values which override defaults in approved-premises-ui/values.yaml
+
+generic-service:
+  replicaCount: 2
+
+  ingress:
+    hosts:
+      - community-accommodation-wiremock.hmpps.service.justice.gov.uk
+    contextColour: green
+    tlsSecretName: hmpps-community-accommodation-wiremock-test-cert
+
+  allowlist: null
+
+generic-prometheus-alerts:
+  alertSeverity: digital-prison-service-dev
