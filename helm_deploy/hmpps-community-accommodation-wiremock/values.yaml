@@ -19,17 +19,14 @@ generic-service:
 
   livenessProbe:
     httpGet:
-      path: /ping
+      path: /__admin
 
   readinessProbe:
     httpGet:
-      path: /ping
+      path: /__admin
 
   custommetrics:
-    enabled: true
-    scrapeInterval: 15s
-    metricsPath: /metrics
-    metricsPort: 3001
+    enabled: false
 
   allowlist:
     office: '217.33.148.210/32'
