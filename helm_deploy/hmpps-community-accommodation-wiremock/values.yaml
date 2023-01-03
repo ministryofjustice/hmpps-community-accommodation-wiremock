@@ -7,7 +7,7 @@ generic-service:
   image:
     repository: quay.io/hmpps/hmpps-community-accommodation-wiremock
     tag: app_version # override at deployment time
-    port: 3000
+    port: 8080
 
   ingress:
     enabled: true
@@ -20,6 +20,7 @@ generic-service:
   livenessProbe:
     httpGet:
       path: /__admin
+
 
   readinessProbe:
     httpGet:
