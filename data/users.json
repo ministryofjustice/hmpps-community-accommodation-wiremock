@@ -1,0 +1,32 @@
+[
+  {
+    "id": "7a424213-3a0c-45b0-9a51-4977243c2b21",
+    "username": "AP_TEST_USER_1",
+    "name": "AP Test User 1",
+    "email": "stuart.harrison2+test1@digital.justice.gov.uk"
+  },
+  {
+    "id": "8a39870c-3a1f-4e05-ad45-a450e15b242d",
+    "username": "AP_TEST_USER_2",
+    "name": "AP Test User 2",
+    "email": "stuart.harrison2+test2@digital.justice.gov.uk"
+  },
+  {
+    "id": "68715a03-06af-49ee-bae5-039c824ab9af",
+    "username": "AP_TEST_USER_3",
+    "name": "AP Test User 3",
+    "email": "stuart.harrison2+test3@digital.justice.gov.uk"
+  },
+  {
+    "id": "6dcd2559-2d14-4feb-8faf-89ad30dfa765",
+    "username": "AP_TEST_USER_4",
+    "name": "AP Test User 4",
+    "email": "stuart.harrison2+test4@digital.justice.gov.uk"
+  },
+  {
+    "id": "531455f4-c76f-4943-b4eb-3c02d8fefa69",
+    "username": "AP_TEST_USER_5",
+    "name": "AP Test User 5",
+    "email": "stuart.harrison2+test5@digital.justice.gov.uk"
+  }
+]

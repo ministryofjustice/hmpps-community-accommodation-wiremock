@@ -1,0 +1,682 @@
+[
+  {
+    "offenderId": "8484625583",
+    "firstName": "Tate",
+    "middleNames": [
+      "Kennedy"
+    ],
+    "surname": "Homenick",
+    "preferredName": "Demetris",
+    "dateOfBirth": "2022-05-01",
+    "gender": "Female",
+    "otherIds": {
+      "crn": "315VWWC",
+      "nomsNumber": "M59CS58",
+      "mostRecentPrisonerNumber": "ZQCBD"
+    },
+    "contactDetails": {},
+    "offenderProfile": {
+      "offenderLanguages": {},
+      "remandStatus": "Bail - Unconditional",
+      "previousConviction": {
+        "convictionDate": "2022-06-08T09:05:25.228Z",
+        "detail": {
+          "documentName": "PRE-CONS.pdf"
+        }
+      },
+      "disabilities": []
+    },
+    "softDeleted": false,
+    "currentDisposal": "1",
+    "partitionArea": "National Data",
+    "currentRestriction": false,
+    "currentExclusion": false,
+    "activeProbationManagedSentence": true
+  },
+  {
+    "offenderId": "9430466263",
+    "firstName": "Greta",
+    "middleNames": [
+      "Hayden"
+    ],
+    "surname": "Kshlerin",
+    "preferredName": "Leland",
+    "dateOfBirth": "2022-08-12",
+    "gender": "Female",
+    "otherIds": {
+      "crn": "4Y29R9P",
+      "nomsNumber": "XWU5JWQ",
+      "mostRecentPrisonerNumber": "9GJ67"
+    },
+    "contactDetails": {},
+    "offenderProfile": {
+      "offenderLanguages": {},
+      "remandStatus": "Bail - Unconditional",
+      "previousConviction": {
+        "convictionDate": "2022-10-24T12:45:11.170Z",
+        "detail": {
+          "documentName": "PRE-CONS.pdf"
+        }
+      },
+      "disabilities": []
+    },
+    "softDeleted": false,
+    "currentDisposal": "1",
+    "partitionArea": "National Data",
+    "currentRestriction": false,
+    "currentExclusion": false,
+    "activeProbationManagedSentence": true
+  },
+  {
+    "offenderId": "7196202991",
+    "firstName": "Rosalee",
+    "middleNames": [
+      "Riley"
+    ],
+    "surname": "Hackett",
+    "preferredName": "Cecil",
+    "dateOfBirth": "2022-02-23",
+    "gender": "Female",
+    "otherIds": {
+      "crn": "4ZUIHFX",
+      "nomsNumber": "5A5C8WL",
+      "mostRecentPrisonerNumber": "51GVD"
+    },
+    "contactDetails": {},
+    "offenderProfile": {
+      "offenderLanguages": {},
+      "remandStatus": "Bail - Unconditional",
+      "previousConviction": {
+        "convictionDate": "2022-11-23T23:55:14.228Z",
+        "detail": {
+          "documentName": "PRE-CONS.pdf"
+        }
+      },
+      "disabilities": []
+    },
+    "softDeleted": false,
+    "currentDisposal": "1",
+    "partitionArea": "National Data",
+    "currentRestriction": false,
+    "currentExclusion": false,
+    "activeProbationManagedSentence": true
+  },
+  {
+    "offenderId": "1755132216",
+    "firstName": "Tristin",
+    "middleNames": [
+      "River"
+    ],
+    "surname": "Satterfield",
+    "preferredName": "Malvina",
+    "dateOfBirth": "2022-04-17",
+    "gender": "Prefer not to say",
+    "otherIds": {
+      "crn": "52W7TQG",
+      "nomsNumber": "5HBWEG1",
+      "mostRecentPrisonerNumber": "D9TYS"
+    },
+    "contactDetails": {},
+    "offenderProfile": {
+      "offenderLanguages": {},
+      "remandStatus": "Bail - Unconditional",
+      "previousConviction": {
+        "convictionDate": "2022-07-30T04:10:12.375Z",
+        "detail": {
+          "documentName": "PRE-CONS.pdf"
+        }
+      },
+      "disabilities": []
+    },
+    "softDeleted": false,
+    "currentDisposal": "1",
+    "partitionArea": "National Data",
+    "currentRestriction": false,
+    "currentExclusion": false,
+    "activeProbationManagedSentence": true
+  },
+  {
+    "offenderId": "8465094569",
+    "firstName": "Berneice",
+    "middleNames": [
+      "London"
+    ],
+    "surname": "Cassin",
+    "preferredName": "Ana",
+    "dateOfBirth": "2022-03-14",
+    "gender": "Other",
+    "otherIds": {
+      "crn": "5EC66UT",
+      "nomsNumber": "530X5EC",
+      "mostRecentPrisonerNumber": "5WKFA"
+    },
+    "contactDetails": {},
+    "offenderProfile": {
+      "offenderLanguages": {},
+      "remandStatus": "Bail - Unconditional",
+      "previousConviction": {
+        "convictionDate": "2022-05-11T14:03:06.989Z",
+        "detail": {
+          "documentName": "PRE-CONS.pdf"
+        }
+      },
+      "disabilities": []
+    },
+    "softDeleted": false,
+    "currentDisposal": "1",
+    "partitionArea": "National Data",
+    "currentRestriction": false,
+    "currentExclusion": false,
+    "activeProbationManagedSentence": true
+  },
+  {
+    "offenderId": "9110934330",
+    "firstName": "Tiffany",
+    "middleNames": [
+      "Rory"
+    ],
+    "surname": "Kovacek",
+    "preferredName": "Javonte",
+    "dateOfBirth": "2022-10-01",
+    "gender": "Other",
+    "otherIds": {
+      "crn": "8LO3HSH",
+      "nomsNumber": "JD5CLIA",
+      "mostRecentPrisonerNumber": "HCCKP"
+    },
+    "contactDetails": {},
+    "offenderProfile": {
+      "offenderLanguages": {},
+      "remandStatus": "Bail - Unconditional",
+      "previousConviction": {
+        "convictionDate": "2021-12-27T06:00:00.880Z",
+        "detail": {
+          "documentName": "PRE-CONS.pdf"
+        }
+      },
+      "disabilities": []
+    },
+    "softDeleted": false,
+    "currentDisposal": "1",
+    "partitionArea": "National Data",
+    "currentRestriction": false,
+    "currentExclusion": false,
+    "activeProbationManagedSentence": true
+  },
+  {
+    "offenderId": "9731712146",
+    "firstName": "Caleigh",
+    "middleNames": [
+      "North"
+    ],
+    "surname": "O'Hara",
+    "preferredName": "Cora",
+    "dateOfBirth": "2022-02-01",
+    "gender": "Male",
+    "otherIds": {
+      "crn": "BWEFOI7",
+      "nomsNumber": "SX9UI94",
+      "mostRecentPrisonerNumber": "NMHSA"
+    },
+    "contactDetails": {},
+    "offenderProfile": {
+      "offenderLanguages": {},
+      "remandStatus": "Bail - Unconditional",
+      "previousConviction": {
+        "convictionDate": "2022-09-24T06:49:33.588Z",
+        "detail": {
+          "documentName": "PRE-CONS.pdf"
+        }
+      },
+      "disabilities": []
+    },
+    "softDeleted": false,
+    "currentDisposal": "1",
+    "partitionArea": "National Data",
+    "currentRestriction": false,
+    "currentExclusion": false,
+    "activeProbationManagedSentence": true
+  },
+  {
+    "offenderId": "6771554086",
+    "firstName": "Mattie",
+    "middleNames": [
+      "Reagan"
+    ],
+    "surname": "Goldner",
+    "preferredName": "Kaleigh",
+    "dateOfBirth": "2022-04-27",
+    "gender": "Female",
+    "otherIds": {
+      "crn": "GSR1T2F",
+      "nomsNumber": "KXTJQEF",
+      "mostRecentPrisonerNumber": "EQ6J0"
+    },
+    "contactDetails": {},
+    "offenderProfile": {
+      "offenderLanguages": {},
+      "remandStatus": "Bail - Unconditional",
+      "previousConviction": {
+        "convictionDate": "2022-09-24T14:07:16.777Z",
+        "detail": {
+          "documentName": "PRE-CONS.pdf"
+        }
+      },
+      "disabilities": []
+    },
+    "softDeleted": false,
+    "currentDisposal": "1",
+    "partitionArea": "National Data",
+    "currentRestriction": false,
+    "currentExclusion": false,
+    "activeProbationManagedSentence": true
+  },
+  {
+    "offenderId": "7182517629",
+    "firstName": "Nakia",
+    "middleNames": [
+      "Skyler"
+    ],
+    "surname": "Prosacco",
+    "preferredName": "Ana",
+    "dateOfBirth": "2022-04-22",
+    "gender": "Male",
+    "otherIds": {
+      "crn": "HRV83TE",
+      "nomsNumber": "N1RRJZU",
+      "mostRecentPrisonerNumber": "MY5Q3"
+    },
+    "contactDetails": {},
+    "offenderProfile": {
+      "offenderLanguages": {},
+      "remandStatus": "Bail - Unconditional",
+      "previousConviction": {
+        "convictionDate": "2022-03-20T11:57:34.935Z",
+        "detail": {
+          "documentName": "PRE-CONS.pdf"
+        }
+      },
+      "disabilities": []
+    },
+    "softDeleted": false,
+    "currentDisposal": "1",
+    "partitionArea": "National Data",
+    "currentRestriction": false,
+    "currentExclusion": false,
+    "activeProbationManagedSentence": true
+  },
+  {
+    "offenderId": "6370998601",
+    "firstName": "Justine",
+    "middleNames": [
+      "Shawn"
+    ],
+    "surname": "Bernhard",
+    "preferredName": "Jarrett",
+    "dateOfBirth": "2022-06-26",
+    "gender": "Prefer not to say",
+    "otherIds": {
+      "crn": "HTVI42B",
+      "nomsNumber": "6X1DNW1",
+      "mostRecentPrisonerNumber": "L8EZ0"
+    },
+    "contactDetails": {},
+    "offenderProfile": {
+      "offenderLanguages": {},
+      "remandStatus": "Bail - Unconditional",
+      "previousConviction": {
+        "convictionDate": "2022-11-04T04:59:56.179Z",
+        "detail": {
+          "documentName": "PRE-CONS.pdf"
+        }
+      },
+      "disabilities": []
+    },
+    "softDeleted": false,
+    "currentDisposal": "1",
+    "partitionArea": "National Data",
+    "currentRestriction": false,
+    "currentExclusion": false,
+    "activeProbationManagedSentence": true
+  },
+  {
+    "offenderId": "4080765472",
+    "firstName": "Mariam",
+    "middleNames": [
+      "Greer"
+    ],
+    "surname": "Rutherford",
+    "preferredName": "Kelvin",
+    "dateOfBirth": "2022-08-13",
+    "gender": "Female",
+    "otherIds": {
+      "crn": "HUN3BN0",
+      "nomsNumber": "YCSW8BD",
+      "mostRecentPrisonerNumber": "Q8UTQ"
+    },
+    "contactDetails": {},
+    "offenderProfile": {
+      "offenderLanguages": {},
+      "remandStatus": "Bail - Unconditional",
+      "previousConviction": {
+        "convictionDate": "2022-11-05T01:14:06.120Z",
+        "detail": {
+          "documentName": "PRE-CONS.pdf"
+        }
+      },
+      "disabilities": []
+    },
+    "softDeleted": false,
+    "currentDisposal": "1",
+    "partitionArea": "National Data",
+    "currentRestriction": false,
+    "currentExclusion": false,
+    "activeProbationManagedSentence": true
+  },
+  {
+    "offenderId": "3765661115",
+    "firstName": "Stacey",
+    "middleNames": [
+      "Reagan"
+    ],
+    "surname": "Bode",
+    "preferredName": "Alex",
+    "dateOfBirth": "2022-11-30",
+    "gender": "Male",
+    "otherIds": {
+      "crn": "IHGHXYM",
+      "nomsNumber": "KWAPTC7",
+      "mostRecentPrisonerNumber": "MLJTS"
+    },
+    "contactDetails": {},
+    "offenderProfile": {
+      "offenderLanguages": {},
+      "remandStatus": "Bail - Unconditional",
+      "previousConviction": {
+        "convictionDate": "2022-06-02T15:09:38.508Z",
+        "detail": {
+          "documentName": "PRE-CONS.pdf"
+        }
+      },
+      "disabilities": []
+    },
+    "softDeleted": false,
+    "currentDisposal": "1",
+    "partitionArea": "National Data",
+    "currentRestriction": false,
+    "currentExclusion": false,
+    "activeProbationManagedSentence": true
+  },
+  {
+    "offenderId": "3590473911",
+    "firstName": "Robbie",
+    "middleNames": [
+      "Leslie"
+    ],
+    "surname": "O'Hara",
+    "preferredName": "Elsie",
+    "dateOfBirth": "2022-02-24",
+    "gender": "Male",
+    "otherIds": {
+      "crn": "JCRH9V5",
+      "nomsNumber": "VTDINBA",
+      "mostRecentPrisonerNumber": "JT2HR"
+    },
+    "contactDetails": {},
+    "offenderProfile": {
+      "offenderLanguages": {},
+      "remandStatus": "Bail - Unconditional",
+      "previousConviction": {
+        "convictionDate": "2022-10-27T23:49:39.407Z",
+        "detail": {
+          "documentName": "PRE-CONS.pdf"
+        }
+      },
+      "disabilities": []
+    },
+    "softDeleted": false,
+    "currentDisposal": "1",
+    "partitionArea": "National Data",
+    "currentRestriction": false,
+    "currentExclusion": false,
+    "activeProbationManagedSentence": true
+  },
+  {
+    "offenderId": "6449450552",
+    "firstName": "Christa",
+    "middleNames": [
+      "Jordan"
+    ],
+    "surname": "Ledner",
+    "preferredName": "Gabriella",
+    "dateOfBirth": "2022-12-10",
+    "gender": "Other",
+    "otherIds": {
+      "crn": "N6OUTAY",
+      "nomsNumber": "HIR0PIN",
+      "mostRecentPrisonerNumber": "IKRSD"
+    },
+    "contactDetails": {},
+    "offenderProfile": {
+      "offenderLanguages": {},
+      "remandStatus": "Bail - Unconditional",
+      "previousConviction": {
+        "convictionDate": "2022-08-15T02:18:50.878Z",
+        "detail": {
+          "documentName": "PRE-CONS.pdf"
+        }
+      },
+      "disabilities": []
+    },
+    "softDeleted": false,
+    "currentDisposal": "1",
+    "partitionArea": "National Data",
+    "currentRestriction": false,
+    "currentExclusion": false,
+    "activeProbationManagedSentence": true
+  },
+  {
+    "offenderId": "2332576662",
+    "firstName": "Justyn",
+    "middleNames": [
+      "Phoenix"
+    ],
+    "surname": "Flatley",
+    "preferredName": "Dario",
+    "dateOfBirth": "2022-07-06",
+    "gender": "Male",
+    "otherIds": {
+      "crn": "PI251LM",
+      "nomsNumber": "QGH3OL6",
+      "mostRecentPrisonerNumber": "YBTVR"
+    },
+    "contactDetails": {},
+    "offenderProfile": {
+      "offenderLanguages": {},
+      "remandStatus": "Bail - Unconditional",
+      "previousConviction": {
+        "convictionDate": "2022-04-23T08:09:21.882Z",
+        "detail": {
+          "documentName": "PRE-CONS.pdf"
+        }
+      },
+      "disabilities": []
+    },
+    "softDeleted": false,
+    "currentDisposal": "1",
+    "partitionArea": "National Data",
+    "currentRestriction": false,
+    "currentExclusion": false,
+    "activeProbationManagedSentence": true
+  },
+  {
+    "offenderId": "4428155372",
+    "firstName": "Geovanny",
+    "middleNames": [
+      "Bailey"
+    ],
+    "surname": "Gleichner",
+    "preferredName": "Frieda",
+    "dateOfBirth": "2022-11-26",
+    "gender": "Male",
+    "otherIds": {
+      "crn": "PR5E5Y2",
+      "nomsNumber": "M9XWJ1S",
+      "mostRecentPrisonerNumber": "KGSCJ"
+    },
+    "contactDetails": {},
+    "offenderProfile": {
+      "offenderLanguages": {},
+      "remandStatus": "Bail - Unconditional",
+      "previousConviction": {
+        "convictionDate": "2022-11-03T23:43:35.926Z",
+        "detail": {
+          "documentName": "PRE-CONS.pdf"
+        }
+      },
+      "disabilities": []
+    },
+    "softDeleted": false,
+    "currentDisposal": "1",
+    "partitionArea": "National Data",
+    "currentRestriction": false,
+    "currentExclusion": false,
+    "activeProbationManagedSentence": true
+  },
+  {
+    "offenderId": "1836247825",
+    "firstName": "Kaylee",
+    "middleNames": [
+      "Drew"
+    ],
+    "surname": "Frami",
+    "preferredName": "Delbert",
+    "dateOfBirth": "2022-11-21",
+    "gender": "Prefer not to say",
+    "otherIds": {
+      "crn": "QA93YYK",
+      "nomsNumber": "YX2YNT2",
+      "mostRecentPrisonerNumber": "8GO1M"
+    },
+    "contactDetails": {},
+    "offenderProfile": {
+      "offenderLanguages": {},
+      "remandStatus": "Bail - Unconditional",
+      "previousConviction": {
+        "convictionDate": "2022-09-24T03:23:51.552Z",
+        "detail": {
+          "documentName": "PRE-CONS.pdf"
+        }
+      },
+      "disabilities": []
+    },
+    "softDeleted": false,
+    "currentDisposal": "1",
+    "partitionArea": "National Data",
+    "currentRestriction": false,
+    "currentExclusion": false,
+    "activeProbationManagedSentence": true
+  },
+  {
+    "offenderId": "6957310125",
+    "firstName": "Ashton",
+    "middleNames": [
+      "Cameron"
+    ],
+    "surname": "Turner",
+    "preferredName": "Louisa",
+    "dateOfBirth": "2022-07-26",
+    "gender": "Prefer not to say",
+    "otherIds": {
+      "crn": "XCMSG3I",
+      "nomsNumber": "NYVS303",
+      "mostRecentPrisonerNumber": "YYSYW"
+    },
+    "contactDetails": {},
+    "offenderProfile": {
+      "offenderLanguages": {},
+      "remandStatus": "Bail - Unconditional",
+      "previousConviction": {
+        "convictionDate": "2022-10-28T14:55:57.766Z",
+        "detail": {
+          "documentName": "PRE-CONS.pdf"
+        }
+      },
+      "disabilities": []
+    },
+    "softDeleted": false,
+    "currentDisposal": "1",
+    "partitionArea": "National Data",
+    "currentRestriction": false,
+    "currentExclusion": false,
+    "activeProbationManagedSentence": true
+  },
+  {
+    "offenderId": "2954218885",
+    "firstName": "Nyah",
+    "middleNames": [
+      "Kai"
+    ],
+    "surname": "Gutmann",
+    "preferredName": "Marcus",
+    "dateOfBirth": "2022-11-13",
+    "gender": "Prefer not to say",
+    "otherIds": {
+      "crn": "YRPARSH",
+      "nomsNumber": "HBVE0LJ",
+      "mostRecentPrisonerNumber": "NT932"
+    },
+    "contactDetails": {},
+    "offenderProfile": {
+      "offenderLanguages": {},
+      "remandStatus": "Bail - Unconditional",
+      "previousConviction": {
+        "convictionDate": "2022-04-06T20:29:56.270Z",
+        "detail": {
+          "documentName": "PRE-CONS.pdf"
+        }
+      },
+      "disabilities": []
+    },
+    "softDeleted": false,
+    "currentDisposal": "1",
+    "partitionArea": "National Data",
+    "currentRestriction": false,
+    "currentExclusion": false,
+    "activeProbationManagedSentence": true
+  },
+  {
+    "offenderId": "6814869515",
+    "firstName": "Rozella",
+    "middleNames": [
+      "Riley"
+    ],
+    "surname": "Kovacek",
+    "preferredName": "Eliseo",
+    "dateOfBirth": "2022-04-06",
+    "gender": "Male",
+    "otherIds": {
+      "crn": "Z33A1BU",
+      "nomsNumber": "6DO89QY",
+      "mostRecentPrisonerNumber": "XRYLE"
+    },
+    "contactDetails": {},
+    "offenderProfile": {
+      "offenderLanguages": {},
+      "remandStatus": "Bail - Unconditional",
+      "previousConviction": {
+        "convictionDate": "2022-02-14T15:07:22.474Z",
+        "detail": {
+          "documentName": "PRE-CONS.pdf"
+        }
+      },
+      "disabilities": []
+    },
+    "softDeleted": false,
+    "currentDisposal": "1",
+    "partitionArea": "National Data",
+    "currentRestriction": false,
+    "currentExclusion": false,
+    "activeProbationManagedSentence": true
+  }
+]

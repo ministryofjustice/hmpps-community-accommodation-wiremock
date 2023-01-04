@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# script/generate_mappings: Generate/Regenerate mappings for users and offenders
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+echo "==> Generating offender mappings"
+node utils/generateOffenderMappings.js
+
+echo "==> Generating user mappings"
+node utils/generateUserMappings.js
