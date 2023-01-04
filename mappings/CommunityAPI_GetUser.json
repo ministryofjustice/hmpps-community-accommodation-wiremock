@@ -1,0 +1,49 @@
+{
+  "id": "7baba015-16b5-4233-95de-f308a8de684a",
+  "name": "community_api_get_user",
+  "request": {
+    "urlPathPattern": "/secure/staff/username/(.*)",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+        "username": "JimSnowLdap",
+        "email": "jim.snow@justice.gov.uk",
+        "telephoneNumber": "01512112121",
+        "staffCode": "SH00007",
+        "staffIdentifier": 17,
+        "staff": {
+            "forenames": "JIM",
+            "surname": "SNOW"
+        },
+        "probationArea": {
+            "probationAreaId": 12,
+            "code": "GCS",
+            "description": "Gloucestershire",
+            "organisation": {
+                "code": "SW",
+                "description": "South West"
+            }
+        },
+        "staffGrade": {
+            "code": "M",
+            "description": "PO"
+        }
+    },
+    "headers": {
+      "X-Content-Type-Options": "nosniff",
+      "X-XSS-Protection": "1; mode=block",
+      "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+      "Pragma": "no-cache",
+      "Expires": "0",
+      "X-Frame-Options": "DENY",
+      "vary": "accept-encoding",
+      "Content-Type": "application/json",
+      "Date": "Mon, 19 Dec 2022 16:16:21 GMT",
+      "Keep-Alive": "timeout=60"
+    }
+  },
+  "uuid": "24632c7a-875f-4c1f-aeea-20643413bf95",
+  "persistent": true
+}
