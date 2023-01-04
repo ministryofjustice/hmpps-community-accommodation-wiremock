@@ -1,0 +1,169 @@
+{
+  "basic-information":[
+     {
+        "Which of the following best describes the sentence type?":"Standard determinate custody"
+     },
+     {
+        "What type of release will the application support?":"Release on Temporary License (ROTL)"
+     },
+     {
+        "Do you know Justyn Flatley’s release date?":"Yes",
+        "Release Date":"Saturday 1 April 2023"
+     },
+     {
+        "Is Saturday 1 April 2023 the date you want the placement to start?":"Yes"
+     },
+     {
+        "What is the purpose of the AP placement?":"Prevent contact, Help individual readjust to life outside custody"
+     }
+  ],
+  "type-of-ap":[
+     {
+        "Which type of AP does Justyn Flatley require?":"Standard"
+     }
+  ],
+  "oasys-import":[
+     {
+        "Needs linked to reoffending":"9. Alcohol",
+        "Needs not linked to risk of serious harm or reoffending":"5. Finance, 11. Thinking and behavioural"
+     },
+     {
+        "R10.1":"[R10.1] IN CUSTODY\r\n \r\n KNOWN ADULTS:\r\n Such as Ms Elaine Underhill and any of the victims of the index offence if they are placed close to Mr Smith cell.\r\n \r\n CHILDREN:\r\n Simon Smith, Roger Smith, Lindy Smith",
+        "R10.2":"[R10.2] IN CUSTODY:\r\n \r\n KNOWN ADULTS:\r\n Intimidation, threats of violence, use of weapons or boiling water, physical education and violent assault, long term psychological impact as a result of Mr Smith violent behaviour. This harm may be cause in the course of physical altercation due to seeking revenge or holding grudges...",
+        "R10.3":"[R10.3] STATIC RISK FACTORS:\r\n \r\n Mr Smith gender - At the time of the offence, Mr Smith was 35 years old and considered to be in the higher risk group.\r\n \r\n STABLE DYNAMIC RISK FACTORS:\r\n Thinking and behaviour - limited ability to manage mood or emotions poor impulse control. Mr Smith demonstrated cognitive deficit in committing the index offences and this still remains a concern...",
+        "R10.4":"[R10.4] CIRCUMSTANCES:\r\n A lack of stable accommodation\r\n unemployment\r\n non constructive use of time\r\n breakdown of family support\r\n being unable to access benefits\r\n \r\n UNDERLYING FACTORS:\r\n pro criminal attitudes supporting commission of crime...",
+        "R10.5":"[R10.5] Engage with Mental Health Services in prison and in the community.\r\n Maintain emotional stability.\r\n Abstain from alcohol.\r\n Abstain from illegal drugs.\r\n Regular testing for alcohol and drug use, in prison and on Licence.\r\n Maintain stable accommodation..."
+     },
+     {
+        "2.1":"",
+        "2.4.1":"",
+        "2.4.2":"",
+        "2.12":"",
+        "2.5":"",
+        "2.8.3":"",
+        "2.98":""
+     },
+     {
+        "3.9":"[3.9] Mr Smith told me that he was renting a room in a shared house, prior to his current remand...",
+        "4.9":"[4.9] He said that he has since learnt to read and write during periods of custody and an initial assessment of his...",
+        "5.9":"[5.9] Mr Smith was in receipt of Job Seekers Allowance prior to his current remand in custody...",
+        "9.9":"[9.9] Mr Smith told me that he rarely consumes alcohol and has not had any problems associated with excessive drinking in years...",
+        "11.9":"[11.9] The circumstances of the current offence suggest that Mr Smith acted ..."
+     },
+     {
+        "RM28":"[RM28] Mr Smith is currently on remand awaiting sentence",
+        "RM35":"[RM35] Placeholder content for additional comments",
+        "RM34":"[RM34] Discuss any concerns with line manager/SPO Increase frequency of reporting Bring forward MAPPA/Consider Level 2 MAPPA professionals meetings  considered if MAPPA not applicable. Consider referral to Approved Premises Consider motivational interviewing/engagement officer.  Joint interview with police OM or other relevant agencies? To raise concerns Referral to substance misues worker for additional support. Warning letters to be employed Recall/Breach if risk not manageable.",
+        "RM33":"[RM33] Undertake sentence planning with OS within 8 or 16 weeks of sentence carats - continue to work with Mr Smith and refer for relevant programmes during any prison sentence imposed. DIP supervise DRR is imposed or provide support post release if conditions/requirements to manage the specific risks.",
+        "RM32":"[RM32] Requires referral to community drug DIP upon  release. To link in with employment/training resources such as College and ETEO. Completion of victim empathy module via 1-1 supervision to build upon awareness of impact of offending.   Level setting to be undertaken by Senior Probation Officer and OMU. Multi Agency Public Protection Panel to be convened if level 2 either at start of supervision or 6 months prior to release",
+        "RM31":"[RM31] State they will have secure accommodation for Mr Smith  and partner on release, although she too is subject to a DRR at present. Supportive wider family.  Has completed previously Short Duration programme and attended one of the support sessions .  Engaged with CARATS in custody.  Complied with voluntary drug tests in custody. Some motivation to desist from alcohol/drug use in the future, this needs to be encouraged with use of community resources. Completed drug and heroin awareness programmes in custody.",
+        "RM30":"[RM30] Probation Officer, Education training and employment Officer, Prison Offender Supervisor",
+        "RM28.1":"[RM28.1] Currently on remand at HMP Wandsworth - Management of case under MAPPA - level not yet set."
+     },
+     {
+        "R8.1.1":"Review 06.10.21:\r\n \r\n         There have been numerous ACCTs opened since 2013 and every subsequent year he has been in custody.  In 2021...",
+        "R8.2.1":"Has told prison staff that he swallowed batteries on one occasion due to wanting..",
+        "R8.3.1":"Review 06.10.21:\r\n \r\n         A previous assessor opined that Mr Smith was displaying all the characteristics of someone..."
+     }
+  ],
+  "risk-management-features":[
+     {
+        "Describe why an AP placement is needed to manage the risk of Justyn Flatley":"Some words",
+        "Provide details of any additional measures that will be necessary for the management of risk":"Some words"
+     },
+     {
+        "Has Justyn Flatley ever been convicted of any arson offences, sexual offences, hate crimes or non-sexual offences against children?":"No"
+     },
+     {
+        "Which rehabilitative interventions will support the person''s Approved Premises (AP) placement?":"Drugs and alcohol, Children and families"
+     }
+  ],
+  "prison-information":[
+     {
+        "Selected prison case notes that support this application":[
+           "Array"
+        ],
+        "Adjudications":[
+           "Array"
+        ]
+     }
+  ],
+  "location-factors":[
+     {
+        "What is the preferred location for the AP placement?":"WS1",
+        "Give details of any positive factors for the person in this location.":"Some words",
+        "Are there any restrictions linked to placement location?":"No",
+        "If an AP Placement is not available in the persons preferred area, would a placement further away be considered?":"No",
+        "Is the person moving to a different area where they''ll be managed by a different probation delivery unit (PDU)?":"No"
+     },
+     {
+        "Have you agreed Justyn Flatley''s transfer/supervision with the receiving PDU?":"No, I still need to make arrangements"
+     }
+  ],
+  "access-and-healthcare":[
+     {
+        "Does Justyn Flatley have any of the following needs?":"Learning disability, hearing impairment",
+        "Does Justyn Flatley have any religious or cultural needs?":"No",
+        "Details of religious or cultural needs":"",
+        "Does Justyn Flatley need an interpreter?":"No",
+        "Has a care act assessment been completed?":"No"
+     },
+     {
+        "Has Justyn Flatley been fully vaccinated for COVID-19?":"No",
+        "Is Justyn Flatley at a higher risk from COVID-19?":"No"
+     }
+  ],
+  "further-considerations":[
+     {
+        "Is there any evidence that the person may pose a risk to AP staff?":"No",
+        "Is there any evidence that the person may pose a risk to other AP residents?":"No",
+        "Do you have any concerns about the person sharing a bedroom?":"No",
+        "Is there any evidence of previous trauma or significant event in the persons history which would indicate that room share may not be suitable?":"No",
+        "Is there potential for the person to benefit from a room share?":"No"
+     },
+     {
+        "Are you aware that Justyn Flatley is vulnerable to exploitation from others?":"No",
+        "Is there any evidence or expectation that Justyn Flatley may groom, radicalise or exploit others?":"No"
+     },
+     {
+        "Has Justyn Flatley stayed or been offered a placement in an AP before?":"No"
+     },
+     {
+        "Does Justyn Flatley''s gender identity require a complex case board to review their application?":"No"
+     },
+     {
+        "Do you have any concerns about Justyn Flatley catering for themselves?":"No"
+     },
+     {
+        "Does Justyn Flatley need a specialist arson room?":"No"
+     }
+  ],
+  "move-on":[
+     {
+        "What duration of placement do you recommend?":"11 weeks",
+        "Provide any additional information":"Some words"
+     },
+     {
+        "Where is Justyn Flatley most likely to live when they move on from the AP?":"WS13"
+     },
+     {
+        "Are move on arrangements already in place for when the person leaves the AP?":"No"
+     },
+     {
+        "What type of accommodation will Justyn Flatley have when they leave the AP?":"Supported housing"
+     }
+  ],
+  "attach-required-documents":[
+     {
+        "PRE-CONS.pdf":"Previous convictions as of 01/09/2019",
+        "Personal circumstances.pdf.pdf":"Personal circumstance of AP - Medication in Posession  - Assessment started on 11/09/2019",
+        "NSIOffender.pdf":"Non Statutory Intervention for OPD Community Pathway on 16/10/2019",
+        "paroleParom1Report_04092019_122116_OMIC_A_X320741.pdf":"Parole Assessment Report at Berwyn (HMP) requested on 05/09/2019"
+     }
+  ],
+  "check-your-answers":[
+     {
+
+     }
+  ]
+}

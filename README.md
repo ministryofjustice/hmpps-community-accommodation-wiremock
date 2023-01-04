@@ -47,3 +47,13 @@ can run the following command to update the Wiremock mappings:
 ```bash
 script/generate_mappings
 ```
+
+And this command to update the API migrations:
+
+```bash
+script/generate_migrations /path/to/api/directory
+```
+
+Where `/path/to/api/directory` is the location of your API repo
+directory. You'll then need to push up a branch and open a pull
+request to change the migrations.
