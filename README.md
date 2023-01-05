@@ -33,3 +33,27 @@ docker run -p 9999:8080 hmpps-community-accommodation-wiremock
 ```
 
 (Replace `9999` with the port you want Wiremock to be accessible from)
+
+## Utils
+
+As part of our user testing procedure, we want to ensure that the
+data we have in the API matches up with the data that we're returning
+from Wiremock. To help us with this, we have a list of known offenders
+and users in the `data` directory, as well as stub application data.
+
+If, for any reason, any of the underlying data needs to change, we
+can run the following command to update the Wiremock mappings:
+
+```bash
+script/generate_mappings
+```
+
+And this command to update the API migrations:
+
+```bash
+script/generate_migrations /path/to/api/directory
+```
+
+Where `/path/to/api/directory` is the location of your API repo
+directory. You'll then need to push up a branch and open a pull
+request to change the migrations.

@@ -1,0 +1,47 @@
+#!/bin/sh
+
+# script/generate_migrations: Generate/Regenerate migrations for the test
+# instance of the API
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+apiDir=$1
+
+if [ -z "$apiDir" ]; then
+  echo "Usage - 'script/generate_migrations API_DIRECTORY' "
+  exit 1
+fi
+
+if [ ! -d "$apiDir" ]; then
+  echo "Directory $apiDir not found"
+  exit 1
+fi
+
+rm -rf /tmp/migrations
+mkdir /tmp/migrations
+
+userFileName="R__1_create_users.sql"
+userFilePath="/tmp/migrations/$userFileName"
+
+echo "==> Creating migration: $userFileName"
+touch "$userFilePath"
+node utils/generateUserSql.js > "$userFilePath"
+
+bookingFileName="R__2_create_bookings.sql"
+bookingFilePath="/tmp/migrations/$bookingFileName"
+
+echo "==> Creating migration: $bookingFileName"
+touch "$bookingFilePath"
+node utils/generateBookingSql.js > "$bookingFilePath"
+
+applicationFilename="R__3_create_applications.sql"
+applicationFilePath="/tmp/migrations/$applicationFilename"
+
+echo "==> Creating migration: $applicationFilename"
+touch "$applicationFilePath"
+node utils/generateApplicationSql.js > "$applicationFilePath"
+
+echo "==> Copying migrations to $apiDir"
+mv /tmp/migrations/*.sql "${apiDir}/src/main/resources/db/migration/test"
