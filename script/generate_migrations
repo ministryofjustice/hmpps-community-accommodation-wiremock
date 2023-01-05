@@ -29,14 +29,21 @@ echo "==> Creating migration: $userFileName"
 touch "$userFilePath"
 node utils/generateUserSql.js > "$userFilePath"
 
-bookingFileName="R__2_create_bookings.sql"
+roomFileName="R__2_create_rooms.sql"
+roomFilePath="/tmp/migrations/$roomFileName"
+
+echo "==> Creating migration: $roomFileName"
+touch "$roomFilePath"
+node utils/generateRoomSql.js > "$roomFilePath"
+
+bookingFileName="R__3_create_bookings.sql"
 bookingFilePath="/tmp/migrations/$bookingFileName"
 
 echo "==> Creating migration: $bookingFileName"
 touch "$bookingFilePath"
 node utils/generateBookingSql.js > "$bookingFilePath"
 
-applicationFilename="R__3_create_applications.sql"
+applicationFilename="R__4_create_applications.sql"
 applicationFilePath="/tmp/migrations/$applicationFilename"
 
 echo "==> Creating migration: $applicationFilename"

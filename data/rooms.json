@@ -1,0 +1,57 @@
+[
+  {
+    "id": "14c0911e-6296-4b3f-ad00-5a2cf6f23a08",
+    "name": "ROOM1",
+    "premisesId": "d33006b7-55d9-4a8e-b722-5e18093dbcdf",
+    "beds": [
+      {
+        "name": "default-bed",
+        "id": "fe86a602-6873-49d3-ac3a-3dfef743ae03"
+      }
+    ]
+  },
+  {
+    "id": "c8848a9c-8340-4e72-a15f-ec327dd23b77",
+    "name": "ROOM2",
+    "premisesId": "d33006b7-55d9-4a8e-b722-5e18093dbcdf",
+    "beds": [
+      {
+        "name": "default-bed",
+        "id": "e8887df9-b31b-4e9c-931a-e063d778ab0d"
+      }
+    ]
+  },
+  {
+    "id": "2d87a9a2-1f94-45ec-9790-eb8732a4ba6f",
+    "name": "ROOM3",
+    "premisesId": "d33006b7-55d9-4a8e-b722-5e18093dbcdf",
+    "beds": [
+      {
+        "name": "default-bed",
+        "id": "135812b4-e6c0-4ccf-9502-4bfea66f3bd3"
+      }
+    ]
+  },
+  {
+    "id": "088d7993-2cf2-42cd-9993-697b5838e9fd",
+    "name": "ROOM4",
+    "premisesId": "d33006b7-55d9-4a8e-b722-5e18093dbcdf",
+    "beds": [
+      {
+        "name": "default-bed",
+        "id": "d97bdcb9-f7b3-477b-a073-71939fac297a"
+      }
+    ]
+  },
+  {
+    "id": "31b88798-71bb-4698-8479-07c76cf58b8e",
+    "name": "ROOM5",
+    "premisesId": "d33006b7-55d9-4a8e-b722-5e18093dbcdf",
+    "beds": [
+      {
+        "name": "default-bed",
+        "id": "8be1ed0e-dae7-42d2-97e0-95c95fdb4c50"
+      }
+    ]
+  }
+]

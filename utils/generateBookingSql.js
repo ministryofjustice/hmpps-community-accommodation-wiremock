@@ -4,7 +4,17 @@ const offenders = require('../data/offenders.json')
 
 const crns = offenders.map(o => o.otherIds.crn)
 
-const insertBooking = (crn, arrival_date, departure_date, id = crypto.randomUUID()) => {
+const rooms = require('../data/rooms.json')
+
+const randomCrn = () => crns[Math.floor(Math.random() * crns.length)]
+
+const insertAPBooking = (crn, arrival_date, departure_date, id = crypto.randomUUID()) =>
+  insertBooking(crn, arrival_date, departure_date, id, '459eeaba-55ac-4a1f-bae2-bad810d4016b', 'approved-premises')
+
+const insertTABooking = (crn, arrival_date, departure_date, bedId, id = crypto.randomUUID()) =>
+  insertBooking(crn, arrival_date, departure_date, id, 'd33006b7-55d9-4a8e-b722-5e18093dbcdf', 'temporary-accommodation', bedId)
+
+const insertBooking = (crn, arrival_date, departure_date, id, premisesID, service, bedId = null) => {
   return `
 INSERT INTO
   bookings (
@@ -15,6 +25,7 @@ INSERT INTO
     "original_arrival_date",
     "original_departure_date",
     "premises_id",
+    "bed_id",
     "service",
     "created_at"
   )
@@ -26,8 +37,9 @@ VALUES
     '${crn}',
     ${arrival_date},
     ${departure_date},
-    '459eeaba-55ac-4a1f-bae2-bad810d4016b',
-    'approved-premises',
+    '${premisesID}',
+    ${bedId ? `'${bedId}'` : 'NULL'},
+    '${service}',
     CURRENT_DATE
   );
 `
@@ -60,7 +72,7 @@ const insertArrivedBooking = (crn, arrival_date, departure_date) => {
   sql = []
   bookingId = crypto.randomUUID()
   sql.push(
-    insertBooking(crn, arrival_date, departure_date, bookingId)
+    insertAPBooking(crn, arrival_date, departure_date, bookingId)
   )
   sql.push(
     insertArrival(arrival_date, bookingId, departure_date)
@@ -70,11 +82,11 @@ const insertArrivedBooking = (crn, arrival_date, departure_date) => {
 }
 
 const arrivingToday = [crns[0], crns[1], crns[2]].map(
-  crn => insertBooking(crn, 'CURRENT_DATE', 'CURRENT_DATE + 84')
+  crn => insertAPBooking(crn, 'CURRENT_DATE', 'CURRENT_DATE + 84')
 )
 
 const dueToArrive = [crns[3], crns[4], crns[6], crns[7]].map(
-  crn => insertBooking(crn, `CURRENT_DATE + ${Math.floor(Math.random() * 4) + 1}`, 'CURRENT_DATE + 84')
+  crn => insertAPBooking(crn, `CURRENT_DATE + ${Math.floor(Math.random() * 4) + 1}`, 'CURRENT_DATE + 84')
 )
 
 const departingToday = [crns[8], crns[9]].map(
@@ -89,6 +101,8 @@ const currentBookings = [crns[10], crns[11], crns[12], crns[13], crns[15]].map(
   crn => insertArrivedBooking(crn, 'CURRENT_DATE - 7', `CURRENT_DATE + ${Math.floor(Math.random() * 60) + 1}`)
 )
 
+const taBookings = rooms.map(room => insertTABooking(randomCrn(), 'CURRENT_DATE', 'CURRENT_DATE + 84', room.beds[0].id))
+
 console.log(
   `
 -- \${flyway:timestamp}
@@ -96,6 +110,8 @@ TRUNCATE TABLE arrivals CASCADE;
 TRUNCATE TABLE bookings CASCADE;
 --- Add some Bookings arriving today ---
 ${arrivingToday.join('\r\n')}
+--- Add some Temporary accommodation bookings ---
+${taBookings.join('\r\n')}
 --- Add some Bookings arriving soon ---
 ${dueToArrive.join('\r\n')}
 --- Add some Bookings departing today ---
