@@ -51,4 +51,7 @@ touch "$applicationFilePath"
 node utils/generateApplicationSql.js > "$applicationFilePath"
 
 echo "==> Copying migrations to $apiDir"
-mv /tmp/migrations/*.sql "${apiDir}/src/main/resources/db/migration/test"
+migrationDir="${apiDir}/src/main/resources/db/migration/test"
+rm -r "${migrationDir}"
+mkdir "${migrationDir}"
+mv /tmp/migrations/*.sql "${migrationDir}"
