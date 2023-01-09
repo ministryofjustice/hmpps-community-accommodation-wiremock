@@ -28,5 +28,17 @@
     "username": "AP_TEST_USER_5",
     "name": "AP Test User 5",
     "email": "stuart.harrison2+test5@digital.justice.gov.uk"
+  },
+  {
+    "id": "7e8d1738-a07d-4ba4-a8a7-9b7d9c9d27b2",
+    "username": "CAS_NCC_TEST1",
+    "name": "NCC User 1",
+    "email": "user1@20230222.CAS31.nccpentest.com"
+  },
+  {
+    "id": "f9ff1c6e-6876-4ba8-8ca9-d7d2c6f673dc",
+    "username": "CAS_NCC_TEST2",
+    "name": "NCC User 2",
+    "email": "user2@20230222.CAS31.nccpentest.com"
   }
 ]

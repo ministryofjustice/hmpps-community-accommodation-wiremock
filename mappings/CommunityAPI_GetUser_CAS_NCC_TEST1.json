@@ -1,0 +1,34 @@
+{
+  "name": "community_api_get_user_CAS_NCC_TEST1",
+  "request": {
+    "url": "/secure/staff/username/CAS_NCC_TEST1",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "username": "CAS_NCC_TEST1",
+      "email": "user1@20230222.CAS31.nccpentest.com",
+      "telephoneNumber": "01512112121",
+      "staffCode": "SH00007",
+      "staffIdentifier": 17,
+      "staff": {
+        "forenames": "NCC User 1",
+        "surname": ""
+      },
+      "probationArea": {
+        "probationAreaId": 12,
+        "code": "GCS",
+        "description": "Gloucestershire",
+        "organisation": {
+          "code": "SW",
+          "description": "South West"
+        }
+      },
+      "staffGrade": {
+        "code": "M",
+        "description": "PO"
+      }
+    }
+  }
+}
