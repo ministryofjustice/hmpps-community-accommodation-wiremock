@@ -9,6 +9,8 @@ generic-service:
     tag: app_version # override at deployment time
     port: 8080
 
+  containerArgs: ["--no-request-journal"]
+
   ingress:
     enabled: true
     hosts:
