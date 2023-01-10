@@ -1,0 +1,134 @@
+{
+  "name": "CommunityAPI_GetTeamCaseload",
+  "request": {
+    "url": "/secure/team/TEAM1/caseload",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "managedOffenders": [
+        {
+          "offenderCrn": "315VWWC",
+          "allocationDate": "2020-01-01",
+          "staffIdentifier": 12345,
+          "teamIdentifier": 54321
+        },
+        {
+          "offenderCrn": "4Y29R9P",
+          "allocationDate": "2020-01-01",
+          "staffIdentifier": 12345,
+          "teamIdentifier": 54321
+        },
+        {
+          "offenderCrn": "4ZUIHFX",
+          "allocationDate": "2020-01-01",
+          "staffIdentifier": 12345,
+          "teamIdentifier": 54321
+        },
+        {
+          "offenderCrn": "52W7TQG",
+          "allocationDate": "2020-01-01",
+          "staffIdentifier": 12345,
+          "teamIdentifier": 54321
+        },
+        {
+          "offenderCrn": "5EC66UT",
+          "allocationDate": "2020-01-01",
+          "staffIdentifier": 12345,
+          "teamIdentifier": 54321
+        },
+        {
+          "offenderCrn": "8LO3HSH",
+          "allocationDate": "2020-01-01",
+          "staffIdentifier": 12345,
+          "teamIdentifier": 54321
+        },
+        {
+          "offenderCrn": "BWEFOI7",
+          "allocationDate": "2020-01-01",
+          "staffIdentifier": 12345,
+          "teamIdentifier": 54321
+        },
+        {
+          "offenderCrn": "GSR1T2F",
+          "allocationDate": "2020-01-01",
+          "staffIdentifier": 12345,
+          "teamIdentifier": 54321
+        },
+        {
+          "offenderCrn": "HRV83TE",
+          "allocationDate": "2020-01-01",
+          "staffIdentifier": 12345,
+          "teamIdentifier": 54321
+        },
+        {
+          "offenderCrn": "HTVI42B",
+          "allocationDate": "2020-01-01",
+          "staffIdentifier": 12345,
+          "teamIdentifier": 54321
+        },
+        {
+          "offenderCrn": "HUN3BN0",
+          "allocationDate": "2020-01-01",
+          "staffIdentifier": 12345,
+          "teamIdentifier": 54321
+        },
+        {
+          "offenderCrn": "IHGHXYM",
+          "allocationDate": "2020-01-01",
+          "staffIdentifier": 12345,
+          "teamIdentifier": 54321
+        },
+        {
+          "offenderCrn": "JCRH9V5",
+          "allocationDate": "2020-01-01",
+          "staffIdentifier": 12345,
+          "teamIdentifier": 54321
+        },
+        {
+          "offenderCrn": "N6OUTAY",
+          "allocationDate": "2020-01-01",
+          "staffIdentifier": 12345,
+          "teamIdentifier": 54321
+        },
+        {
+          "offenderCrn": "PI251LM",
+          "allocationDate": "2020-01-01",
+          "staffIdentifier": 12345,
+          "teamIdentifier": 54321
+        },
+        {
+          "offenderCrn": "PR5E5Y2",
+          "allocationDate": "2020-01-01",
+          "staffIdentifier": 12345,
+          "teamIdentifier": 54321
+        },
+        {
+          "offenderCrn": "QA93YYK",
+          "allocationDate": "2020-01-01",
+          "staffIdentifier": 12345,
+          "teamIdentifier": 54321
+        },
+        {
+          "offenderCrn": "XCMSG3I",
+          "allocationDate": "2020-01-01",
+          "staffIdentifier": 12345,
+          "teamIdentifier": 54321
+        },
+        {
+          "offenderCrn": "YRPARSH",
+          "allocationDate": "2020-01-01",
+          "staffIdentifier": 12345,
+          "teamIdentifier": 54321
+        },
+        {
+          "offenderCrn": "Z33A1BU",
+          "allocationDate": "2020-01-01",
+          "staffIdentifier": 12345,
+          "teamIdentifier": 54321
+        }
+      ]
+    }
+  }
+}
