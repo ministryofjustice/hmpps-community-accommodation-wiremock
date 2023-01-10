@@ -11,3 +11,6 @@ node utils/generateOffenderMappings.js
 
 echo "==> Generating user mappings"
 node utils/generateUserMappings.js
+
+echo "==> Generating caseload mapping"
+node utils/generateTeamCaseloadMapping.js
