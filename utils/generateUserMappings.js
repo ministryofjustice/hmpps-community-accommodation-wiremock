@@ -33,7 +33,31 @@ users.forEach(user => {
         "staffGrade": {
             "code": "M",
             "description": "PO"
-        }
+        },
+        "teams": [{
+            "code": "TEAM1",
+            "description": "A Team",
+            "telephone": null,
+            "emailAddress": null,
+            "localDeliveryUnit": {
+                "code": "LDU",
+                "description": "An LDU Type"
+            },
+            "teamType": {
+                "code": "TEAMTYPE",
+                "description": "A Team Type"
+            },
+            "district": {
+                "code": "DISTRICT",
+                "description": "A District"
+            },
+            "borough": {
+                "code": "BOROUGH",
+                "description": "A Borough"
+            },
+            "startDate": "2020-01-01",
+            "endDate": null
+        }]
       }
     }
   }
