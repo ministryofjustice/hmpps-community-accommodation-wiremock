@@ -1,6 +1,7 @@
 {
   "id": "018dda23-dc5c-43eb-8171-4a0e4eac9aec",
   "name": "api_offenders_a1234ai",
+  "priority": 10,
   "request": {
     "urlPathPattern": "/api/offenders/(.*)",
     "method": "GET"

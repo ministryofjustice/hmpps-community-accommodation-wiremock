@@ -1,0 +1,9 @@
+version: "3"
+services:
+  wiremock:
+    image: rodolpheche/wiremock
+    container_name: wiremock
+    ports:
+      - "9004:8080"
+    volumes:
+      - ./mappings:/home/wiremock/mappings
