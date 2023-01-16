@@ -1,19 +1,19 @@
 {
-  "name": "community_api_get_user_AP_TEST_USER_4",
+  "name": "community_api_get_user_AP_USER_TEST_3",
   "request": {
-    "url": "/secure/staff/username/AP_TEST_USER_4",
+    "url": "/secure/staff/username/AP_USER_TEST_3",
     "method": "GET"
   },
   "response": {
     "status": 200,
     "jsonBody": {
-      "username": "AP_TEST_USER_4",
-      "email": "stuart.harrison2+test4@digital.justice.gov.uk",
+      "username": "AP_USER_TEST_3",
+      "email": "stuart.harrison2+test3@digital.justice.gov.uk",
       "telephoneNumber": "01512112121",
       "staffCode": "SH00007",
       "staffIdentifier": 17,
       "staff": {
-        "forenames": "AP Test User 4",
+        "forenames": "AP Test User 3",
         "surname": ""
       },
       "probationArea": {
