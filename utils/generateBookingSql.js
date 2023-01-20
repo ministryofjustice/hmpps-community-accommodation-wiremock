@@ -41,8 +41,31 @@ VALUES
     ${bedId ? `'${bedId}'` : 'NULL'},
     '${service}',
     CURRENT_DATE
-  );
+  )
+ON CONFLICT(id) DO NOTHING;
 `
+}
+
+const insertConfirmation = (bookingId) => {
+  return `
+INSERT INTO
+  confirmations (
+    "id",
+    "booking_id",
+    "date_time",
+    "notes",
+    "created_at"
+  )
+VALUES
+  (
+    '${crypto.randomUUID()}',
+    '${bookingId}',
+    CURRENT_DATE,
+    NULL,
+    CURRENT_DATE
+  )
+ON CONFLICT(id) DO NOTHING;
+  `
 }
 
 const insertArrival = (arrivalDate, bookingId, expectedDepartureDate) => {
@@ -64,7 +87,84 @@ VALUES
     ${expectedDepartureDate},
     '${crypto.randomUUID()}',
     NULL
-  );
+  )
+ON CONFLICT(id) DO NOTHING;
+  `
+}
+
+const insertDeparture = (bookingId, departureDateTime, departureReasonId, moveOnCategoryId, destinationProviderId = null) => {
+  return `
+INSERT INTO
+  departures (
+    "id",
+    "date_time",
+    "departure_reason_id",
+    "move_on_category_id",
+    "destination_provider_id",
+    "notes",
+    "booking_id",
+    "created_at"
+  )
+VALUES
+  (
+    '${crypto.randomUUID()}',
+    ${departureDateTime},
+    '${departureReasonId}',
+    '${moveOnCategoryId}',
+    ${destinationProviderId ? `'${destinationProviderId}'` : 'NULL'},
+    NULL,
+    '${bookingId}',
+    CURRENT_DATE
+  )
+ON CONFLICT(id) DO NOTHING;
+  `
+}
+
+const insertCancellation = (bookingId, cancellationDate, cancellationReasonId) => {
+  return `
+INSERT INTO
+  cancellations (
+    "id",
+    "date",
+    "notes",
+    "booking_id",
+    "cancellation_reason_id",
+    "created_at"
+  )
+VALUES
+  (
+    '${crypto.randomUUID()}',
+    ${cancellationDate},
+    NULL,
+    '${bookingId}',
+    '${cancellationReasonId}',
+    CURRENT_DATE
+  )
+ON CONFLICT(id) DO NOTHING;
+  `
+}
+
+const insertNonArrival = (bookingId, nonArrivalDate, nonArrivalReasonId) => {
+  return `
+INSERT INTO
+  non_arrivals (
+    "id",
+    "date",
+    "notes",
+    "booking_id",
+    "non_arrival_reason_id",
+    "created_at"
+  )
+VALUES
+  (
+    '${crypto.randomUUID()}',
+    ${nonArrivalDate},
+    NULL,
+    '${bookingId}',
+    '${nonArrivalReasonId}',
+    CURRENT_DATE
+  )
+ON CONFLICT(id) DO NOTHING;
   `
 }
 
@@ -77,6 +177,60 @@ const insertArrivedBooking = (crn, arrival_date, departure_date) => {
   sql.push(
     insertArrival(arrival_date, bookingId, departure_date)
   )
+
+  return sql.join('\r\n')
+}
+
+const ta_statuses = ['provisional', 'confirmed', 'arrived', 'departed', 'cancelled', 'not-arrived']
+const insertTABookingWithStatus = (crn, arrival_date, departure_date, bed_id, current_status = null) => {
+  currentStatus = current_status || ta_statuses[crypto.randomInt(statuses.length)]
+
+  sql = []
+  bookingId = crypto.randomUUID()
+  sql.push(
+    insertTABooking(crn, arrival_date, departure_date, bed_id, bookingId)
+  )
+
+  switch (currentStatus) {
+    case 'not-arrived':
+      nonArrivalReasonId = 'e9184f2e-f409-461e-b149-492a02cb1655' // Failed to Arrive
+      sql.push(
+        insertNonArrival(bookingId, `${arrival_date} + 2`, nonArrivalReasonId)
+      )
+      sql.push(
+        insertConfirmation(bookingId)
+      )
+      break
+
+    case 'cancelled':
+      cancellationReasonId = 'd2a0d037-53db-4bb2-b9f7-afa07948a3f5' // Administrative error
+      sql.push(
+        insertCancellation(bookingId, `${arrival_date} - 14`, cancellationReasonId)
+      )
+      break
+
+    // The following cases should fall through so that (for example) a departed booking has an arrival and a confirmation.
+
+    case 'departed':
+      departureReasonId = 'f4d00e1c-8bfd-40e9-8241-a7d0f744e737' // Planned move-on
+      moveOnCategoryId = '587dc0dc-9073-4992-9d58-5576753050e9' // Rental accommodation - private rental
+      sql.push(
+        insertDeparture(bookingId, departure_date, departureReasonId, moveOnCategoryId)
+      )
+
+    case 'arrived':
+      sql.push(
+        insertArrival(arrival_date, bookingId, departure_date)
+      )
+
+    case 'confirmed':
+      sql.push(
+        insertConfirmation(bookingId)
+      )
+    
+    case 'provisional':
+    default:
+  }
 
   return sql.join('\r\n')
 }
@@ -101,13 +255,13 @@ const currentBookings = [crns[10], crns[11], crns[12], crns[13], crns[15]].map(
   crn => insertArrivedBooking(crn, 'CURRENT_DATE - 7', `CURRENT_DATE + ${Math.floor(Math.random() * 60) + 1}`)
 )
 
-const taBookings = rooms.map(room => insertTABooking(randomCrn(), 'CURRENT_DATE', 'CURRENT_DATE + 84', room.beds[0].id))
+const taBookings = rooms.
+  filter((room) => room.createBooking === undefined || room.createBooking === true).
+  map((room, index) => insertTABookingWithStatus(randomCrn(), 'CURRENT_DATE', 'CURRENT_DATE + 84', room.beds[0].id, ta_statuses[index % ta_statuses.length]))
 
 console.log(
   `
 -- \${flyway:timestamp}
-TRUNCATE TABLE arrivals CASCADE;
-TRUNCATE TABLE bookings CASCADE;
 --- Add some Bookings arriving today ---
 ${arrivingToday.join('\r\n')}
 --- Add some Temporary accommodation bookings ---
