@@ -1,0 +1,15 @@
+{
+  "name": "community_api_getUserAccess_Z33A1BU_Admin1",
+  "request": {
+    "urlPathPattern": "/secure/offenders/crn/Z33A1BU/user/APPROVEDPREMISESNCCROLEADMIN1/userAccess",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "userRestricted": false,
+      "userExcluded": false,
+      "restrictionMessage": null
+    }
+  }
+}
