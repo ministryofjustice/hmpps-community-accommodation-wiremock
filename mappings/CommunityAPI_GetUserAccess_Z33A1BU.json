@@ -1,0 +1,15 @@
+{
+  "name": "community_api_getUserAccess_Z33A1BU",
+  "request": {
+    "urlPathPattern": "/secure/offenders/crn/Z33A1BU/user/(.*)/userAccess",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "userRestricted": true,
+      "userExcluded": false,
+      "restrictionMessage": "User is restricted"
+    }
+  }
+}

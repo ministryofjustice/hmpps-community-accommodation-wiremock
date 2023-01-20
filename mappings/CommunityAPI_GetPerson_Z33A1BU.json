@@ -36,7 +36,7 @@
       "softDeleted": false,
       "currentDisposal": "1",
       "partitionArea": "National Data",
-      "currentRestriction": false,
+      "currentRestriction": true,
       "currentExclusion": false,
       "activeProbationManagedSentence": true
     }
