@@ -1,0 +1,15 @@
+{
+  "name": "community_api_getUserAccess",
+  "request": {
+    "urlPathPattern": "/secure/offenders/crn/(.*)/user/(.*)/userAccess",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "userRestricted": false,
+      "userExcluded": false,
+      "restrictionMessage": null
+    }
+  }
+}
