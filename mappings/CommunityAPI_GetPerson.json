@@ -1,0 +1,43 @@
+{
+  "name": "community_api_getPerson_4Y29R9P",
+  "request": {
+    "urlPathPattern": "/secure/offenders/crn/(.*)",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "offenderId": "9430466263",
+      "firstName": "Test",
+      "middleNames": [
+      ],
+      "surname": "User",
+      "preferredName": "Test",
+      "dateOfBirth": "2022-08-12",
+      "gender": "Male",
+      "otherIds": {
+        "crn": "ABC123",
+        "nomsNumber": "XWU5JWQ",
+        "mostRecentPrisonerNumber": "9GJ67"
+      },
+      "contactDetails": {},
+      "offenderProfile": {
+        "offenderLanguages": {},
+        "remandStatus": "Bail - Unconditional",
+        "previousConviction": {
+          "convictionDate": "2022-10-24T12:45:11.170Z",
+          "detail": {
+            "documentName": "PRE-CONS.pdf"
+          }
+        },
+        "disabilities": []
+      },
+      "softDeleted": false,
+      "currentDisposal": "1",
+      "partitionArea": "National Data",
+      "currentRestriction": false,
+      "currentExclusion": false,
+      "activeProbationManagedSentence": true
+    }
+  }
+}
