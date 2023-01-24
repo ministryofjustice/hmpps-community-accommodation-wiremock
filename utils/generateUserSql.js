@@ -14,11 +14,12 @@ const sql = users.map(u => `
       '${u.username}',
       '${u.id}',
       '${u.name}'
-    );
+    )
+  ON CONFLICT (id) DO NOTHING;
 `)
 
 console.log(`
 -- \${flyway:timestamp}
-TRUNCATE TABLE users CASCADE;
+
 ${sql.join('\r\n')}
 `)
