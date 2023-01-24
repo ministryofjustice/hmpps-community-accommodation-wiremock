@@ -6,6 +6,7 @@ offenders.forEach(offender => {
   const filename = `CommunityAPI_GetPerson_${crn}.json`
   const body = {
     "name": `community_api_getPerson_${crn}`,
+    "priority": 10,
     "request": {
       "url": `/secure/offenders/crn/${crn}`,
       "method": "GET"
