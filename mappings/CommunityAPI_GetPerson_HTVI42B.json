@@ -1,5 +1,6 @@
 {
   "name": "community_api_getPerson_HTVI42B",
+  "priority": 10,
   "request": {
     "url": "/secure/offenders/crn/HTVI42B",
     "method": "GET"

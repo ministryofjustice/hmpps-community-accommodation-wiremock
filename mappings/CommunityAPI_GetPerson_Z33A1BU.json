@@ -1,5 +1,6 @@
 {
   "name": "community_api_getPerson_Z33A1BU",
+  "priority": 10,
   "request": {
     "url": "/secure/offenders/crn/Z33A1BU",
     "method": "GET"
@@ -36,7 +37,7 @@
       "softDeleted": false,
       "currentDisposal": "1",
       "partitionArea": "National Data",
-      "currentRestriction": true,
+      "currentRestriction": false,
       "currentExclusion": false,
       "activeProbationManagedSentence": true
     }

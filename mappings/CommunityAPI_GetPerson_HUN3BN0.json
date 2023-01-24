@@ -1,5 +1,6 @@
 {
   "name": "community_api_getPerson_HUN3BN0",
+  "priority": 10,
   "request": {
     "url": "/secure/offenders/crn/HUN3BN0",
     "method": "GET"

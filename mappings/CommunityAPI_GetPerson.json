@@ -1,5 +1,6 @@
 {
   "name": "community_api_getPerson_4Y29R9P",
+  "priority": 10,
   "request": {
     "urlPathPattern": "/secure/offenders/crn/(.*)",
     "method": "GET"
