@@ -14,7 +14,7 @@ const userBody = (user) => {
     },
     "probationArea": {
         "probationAreaId": 12,
-        "code": "GCS",
+        "code": user.probation_region_code,
         "description": "Gloucestershire",
         "organisation": {
             "code": "SW",
@@ -73,7 +73,8 @@ const defaultUser = {
   "id": "fe39c7ee-14af-4650-9263-f8e0e2cca970",
   "username": "DEFAULT_USER",
   "name": "Default User",
-  "email": "jim.snow@justice.gov.uk"
+  "email": "jim.snow@justice.gov.uk",
+  "probation_region_code": "N58"
 }
 const defaultFilename = `CommunityAPI_GetUser.json`
 const defaultBody = {
