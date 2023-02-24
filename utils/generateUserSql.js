@@ -7,15 +7,17 @@ const sql = users.map(u => `
       "delius_username",
       "id",
       "name",
-      "probation_region_id"
-    )
+      "probation_region_id",
+      "delius_staff_code"
+  )
   values
     (
       '${Math.floor(Math.random() * 100000)}',
       '${u.username}',
       '${u.id}',
       '${u.name}',
-      '${u.probation_region_id}'
+      '${u.probation_region_id}',
+      '${u.staff_code}'
     )
   ON CONFLICT (id) DO NOTHING;
 `)

@@ -5,7 +5,8 @@
     "name": "AP Test User 1",
     "email": "stuart.harrison2+test1@digital.justice.gov.uk",
     "probation_region_code": "N58",
-    "probation_region_id": "43606be0-9836-441d-9bc1-5586de9ac931"
+    "probation_region_id": "43606be0-9836-441d-9bc1-5586de9ac931",
+    "staff_code": "SC1"
   },
   {
     "id": "8a39870c-3a1f-4e05-ad45-a450e15b242d",
@@ -13,7 +14,8 @@
     "name": "AP Test User 2",
     "email": "stuart.harrison2+test2@digital.justice.gov.uk",
     "probation_region_code": "N58",
-    "probation_region_id": "43606be0-9836-441d-9bc1-5586de9ac931"
+    "probation_region_id": "43606be0-9836-441d-9bc1-5586de9ac931",
+    "staff_code": "SC2"
   },
   {
     "id": "68715a03-06af-49ee-bae5-039c824ab9af",
@@ -21,7 +23,8 @@
     "name": "AP Test User 3",
     "email": "stuart.harrison2+test3@digital.justice.gov.uk",
     "probation_region_code": "N58",
-    "probation_region_id": "43606be0-9836-441d-9bc1-5586de9ac931"
+    "probation_region_id": "43606be0-9836-441d-9bc1-5586de9ac931",
+    "staff_code": "SC3"
   },
   {
     "id": "6dcd2559-2d14-4feb-8faf-89ad30dfa765",
@@ -29,7 +32,8 @@
     "name": "AP Test User 4",
     "email": "stuart.harrison2+test4@digital.justice.gov.uk",
     "probation_region_code": "N58",
-    "probation_region_id": "43606be0-9836-441d-9bc1-5586de9ac931"
+    "probation_region_id": "43606be0-9836-441d-9bc1-5586de9ac931",
+    "staff_code": "SC4"
   },
   {
     "id": "531455f4-c76f-4943-b4eb-3c02d8fefa69",
@@ -37,7 +41,8 @@
     "name": "AP Test User 5",
     "email": "stuart.harrison2+test5@digital.justice.gov.uk",
     "probation_region_code": "N58",
-    "probation_region_id": "43606be0-9836-441d-9bc1-5586de9ac931"
+    "probation_region_id": "43606be0-9836-441d-9bc1-5586de9ac931",
+    "staff_code": "SC5"
   },
   {
     "id": "7e8d1738-a07d-4ba4-a8a7-9b7d9c9d27b2",
@@ -45,7 +50,8 @@
     "name": "NCC User 1",
     "email": "user1@20230222.CAS31.nccpentest.com",
     "probation_region_code": "N58",
-    "probation_region_id": "43606be0-9836-441d-9bc1-5586de9ac931"
+    "probation_region_id": "43606be0-9836-441d-9bc1-5586de9ac931",
+    "staff_code": "SC6"
   },
   {
     "id": "f9ff1c6e-6876-4ba8-8ca9-d7d2c6f673dc",
@@ -53,6 +59,7 @@
     "name": "NCC User 2",
     "email": "user2@20230222.CAS31.nccpentest.com",
     "probation_region_code": "N58",
-    "probation_region_id": "43606be0-9836-441d-9bc1-5586de9ac931"
+    "probation_region_id": "43606be0-9836-441d-9bc1-5586de9ac931",
+    "staff_code": "SC7"
   }
 ]
