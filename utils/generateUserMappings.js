@@ -6,7 +6,7 @@ const userBody = (user) => {
     "username": user.username,
     "email": user.email,
     "telephoneNumber": "01512112121",
-    "staffCode": "SH00007",
+    "staffCode": user.staff_code,
     "staffIdentifier": 17,
     "staff": {
         "forenames": user.name,
