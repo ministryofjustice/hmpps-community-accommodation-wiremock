@@ -1,9 +1,8 @@
 {
   "id": "c3a7a25a-cbbe-4920-b927-779b4a3cc61f",
   "name": "api_offenders_alerts",
-  "priority": 10,
   "request": {
-    "urlPathPattern": "/api/offenders/(.*)/alerts",
+    "urlPathPattern": "/api/offenders/(.*)/alerts/v2",
     "method": "GET"
   },
   "response": {
