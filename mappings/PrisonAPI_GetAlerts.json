@@ -1,0 +1,29 @@
+{
+  "id": "c3a7a25a-cbbe-4920-b927-779b4a3cc61f",
+  "name": "api_offenders_alerts",
+  "priority": 10,
+  "request": {
+    "urlPathPattern": "/api/offenders/(.*)/alerts",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [{
+      "alertId": 123,
+      "bookingId": 456,
+      "offenderNo": "xyz",
+      "alertType": "H",
+      "alertTypeDescription": "Self Harm",
+      "alertCode": "HA",
+      "alertCodeDescription": "ACCT Open (HMPS)",
+      "comment": "Comment",
+      "dateCreated": "2023-03-01",
+      "dateExpires": "2025-03-01",
+      "expired": null,
+      "active": true
+    }],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
