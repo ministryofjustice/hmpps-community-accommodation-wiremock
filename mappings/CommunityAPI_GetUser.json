@@ -11,6 +11,7 @@
       "username": "DEFAULT_USER",
       "email": "jim.snow@justice.gov.uk",
       "telephoneNumber": "01512112121",
+      "staffCode": "SC0",
       "staffIdentifier": 17,
       "staff": {
         "forenames": "Default User",
