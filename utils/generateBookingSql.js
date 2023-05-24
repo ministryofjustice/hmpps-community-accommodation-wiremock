@@ -7,7 +7,7 @@ const nomsNumbers = offenders.map(o => o.otherIds.nomsNumber)
 
 const rooms = require('../data/rooms.json')
 
-const randomCrn = () => crns[Math.floor(Math.random() * crns.length)]
+const randomOffender = () => offenders[Math.floor(Math.random() * offenders.length)]
 
 const insertAPBooking = (crn, noms_number, arrival_date, departure_date, id = crypto.randomUUID()) =>
   insertBooking(crn, noms_number, arrival_date, departure_date, id, '459eeaba-55ac-4a1f-bae2-bad810d4016b', 'approved-premises')
@@ -185,13 +185,13 @@ const insertArrivedBooking = (crn, noms_number, arrival_date, departure_date) =>
 }
 
 const ta_statuses = ['provisional', 'confirmed', 'arrived', 'departed', 'cancelled', 'not-arrived']
-const insertTABookingWithStatus = (crn, arrival_date, departure_date, bed_id, current_status = null) => {
+const insertTABookingWithStatus = (crn, noms_number, arrival_date, departure_date, bed_id, current_status = null) => {
   currentStatus = current_status || ta_statuses[crypto.randomInt(statuses.length)]
 
   sql = []
   bookingId = crypto.randomUUID()
   sql.push(
-    insertTABooking(crn, arrival_date, departure_date, bed_id, bookingId)
+    insertTABooking(crn, noms_number, arrival_date, departure_date, bed_id, bookingId)
   )
 
   switch (currentStatus) {
@@ -260,7 +260,7 @@ const currentBookings = [10, 11, 12, 13, 15].map(
 
 const taBookings = rooms.
   filter((room) => room.createBooking === undefined || room.createBooking === true).
-  map((room, index) => insertTABookingWithStatus(randomCrn(), 'CURRENT_DATE', 'CURRENT_DATE + 84', room.beds[0].id, ta_statuses[index % ta_statuses.length]))
+  map((room, index) => insertTABookingWithStatus(randomOffender().otherIds.crn, randomOffender().otherIds.nomsNumber, 'CURRENT_DATE', 'CURRENT_DATE + 84', room.beds[0].id, ta_statuses[index % ta_statuses.length]))
 
 console.log(
   `
