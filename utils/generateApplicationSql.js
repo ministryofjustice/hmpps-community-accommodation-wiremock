@@ -5,7 +5,6 @@ const applicationDocument = require('../data/applicationDocument.json')
 const users = require('../data/users.json')
 const offenders = require('../data/offenders.json')
 
-const crns = offenders.map(o => o.otherIds.crn)
 const randomUser = () => users[Math.floor(Math.random() * users.length)]
 
 sql = []
@@ -24,7 +23,7 @@ DECLARE
 BEGIN
 `)
 
-crns.forEach(crn => {
+offenders.forEach(offender => {
   const applicationId = crypto.randomUUID()
   sql.push(`
   insert into applications (
@@ -36,14 +35,15 @@ crns.forEach(crn => {
     "document",
     "schema_version",
     "service",
-    "submitted_at"
+    "submitted_at",
+    "noms_number"
   )
   values
     (
       '${applicationId}',
       CURRENT_DATE + ${Math.floor(Math.random() * 30)},
       '${randomUser().id}',
-      '${crn}',
+      '${offender.otherIds.crn}',
       applicationData,
       applicationDocument,
       (
@@ -56,7 +56,8 @@ crns.forEach(crn => {
         LIMIT 1
       ),
       'approved-premises',
-      CURRENT_DATE + ${Math.floor(Math.random() * 30)}
+      CURRENT_DATE + ${Math.floor(Math.random() * 30)},
+      '${offender.otherIds.nomsNumber}'
     );
   `)
 

@@ -3,18 +3,19 @@ const crypto = require('crypto')
 const offenders = require('../data/offenders.json')
 
 const crns = offenders.map(o => o.otherIds.crn)
+const nomsNumbers = offenders.map(o => o.otherIds.nomsNumber)
 
 const rooms = require('../data/rooms.json')
 
 const randomCrn = () => crns[Math.floor(Math.random() * crns.length)]
 
-const insertAPBooking = (crn, arrival_date, departure_date, id = crypto.randomUUID()) =>
-  insertBooking(crn, arrival_date, departure_date, id, '459eeaba-55ac-4a1f-bae2-bad810d4016b', 'approved-premises')
+const insertAPBooking = (crn, noms_number, arrival_date, departure_date, id = crypto.randomUUID()) =>
+  insertBooking(crn, noms_number, arrival_date, departure_date, id, '459eeaba-55ac-4a1f-bae2-bad810d4016b', 'approved-premises')
 
-const insertTABooking = (crn, arrival_date, departure_date, bedId, id = crypto.randomUUID()) =>
-  insertBooking(crn, arrival_date, departure_date, id, 'd33006b7-55d9-4a8e-b722-5e18093dbcdf', 'temporary-accommodation', bedId)
+const insertTABooking = (crn, noms_number, arrival_date, departure_date, bedId, id = crypto.randomUUID()) =>
+  insertBooking(crn, noms_number, arrival_date, departure_date, id, 'd33006b7-55d9-4a8e-b722-5e18093dbcdf', 'temporary-accommodation', bedId)
 
-const insertBooking = (crn, arrival_date, departure_date, id, premisesID, service, bedId = null) => {
+const insertBooking = (crn, noms_number, arrival_date, departure_date, id, premisesID, service, bedId = null) => {
   return `
 INSERT INTO
   bookings (
@@ -27,7 +28,8 @@ INSERT INTO
     "premises_id",
     "bed_id",
     "service",
-    "created_at"
+    "created_at",
+    "noms_number"
   )
 VALUES
   (
@@ -40,7 +42,8 @@ VALUES
     '${premisesID}',
     ${bedId ? `'${bedId}'` : 'NULL'},
     '${service}',
-    CURRENT_DATE
+    CURRENT_DATE,
+   '${noms_number}'
   )
 ON CONFLICT(id) DO NOTHING;
 `
@@ -168,11 +171,11 @@ ON CONFLICT(id) DO NOTHING;
   `
 }
 
-const insertArrivedBooking = (crn, arrival_date, departure_date) => {
+const insertArrivedBooking = (crn, noms_number, arrival_date, departure_date) => {
   sql = []
   bookingId = crypto.randomUUID()
   sql.push(
-    insertAPBooking(crn, arrival_date, departure_date, bookingId)
+    insertAPBooking(crn, noms_number, arrival_date, departure_date, bookingId)
   )
   sql.push(
     insertArrival(arrival_date, bookingId, departure_date)
@@ -235,24 +238,24 @@ const insertTABookingWithStatus = (crn, arrival_date, departure_date, bed_id, cu
   return sql.join('\r\n')
 }
 
-const arrivingToday = [crns[0], crns[1], crns[2]].map(
-  crn => insertAPBooking(crn, 'CURRENT_DATE', 'CURRENT_DATE + 84')
+const arrivingToday = [0, 1, 2].map(
+  index => insertAPBooking(crns[index], nomsNumbers[index], 'CURRENT_DATE', 'CURRENT_DATE + 84')
 )
 
-const dueToArrive = [crns[3], crns[4], crns[6], crns[7]].map(
-  crn => insertAPBooking(crn, `CURRENT_DATE + ${Math.floor(Math.random() * 4) + 1}`, 'CURRENT_DATE + 84')
+const dueToArrive = [3, 4, 6, 7].map(
+  index => insertAPBooking(crns[index], nomsNumbers[index], `CURRENT_DATE + ${Math.floor(Math.random() * 4) + 1}`, 'CURRENT_DATE + 84')
 )
 
-const departingToday = [crns[8], crns[9]].map(
-  crn => insertArrivedBooking(crn, 'CURRENT_DATE - 84', 'CURRENT_DATE')
+const departingToday = [8, 9].map(
+  index => insertArrivedBooking(crns[index], nomsNumbers[index], 'CURRENT_DATE - 84', 'CURRENT_DATE')
 )
 
-const departingSoon = [crns[8], crns[9]].map(
-  crn => insertArrivedBooking(crn, 'CURRENT_DATE - 84', `CURRENT_DATE + ${Math.floor(Math.random() * 4) + 1}`)
+const departingSoon = [8, 9].map(
+  index => insertArrivedBooking(crns[index], nomsNumbers[index], 'CURRENT_DATE - 84', `CURRENT_DATE + ${Math.floor(Math.random() * 4) + 1}`)
 )
 
-const currentBookings = [crns[10], crns[11], crns[12], crns[13], crns[15]].map(
-  crn => insertArrivedBooking(crn, 'CURRENT_DATE - 7', `CURRENT_DATE + ${Math.floor(Math.random() * 60) + 1}`)
+const currentBookings = [10, 11, 12, 13, 15].map(
+  index => insertArrivedBooking(crns[index], nomsNumbers[index], 'CURRENT_DATE - 7', `CURRENT_DATE + ${Math.floor(Math.random() * 60) + 1}`)
 )
 
 const taBookings = rooms.
