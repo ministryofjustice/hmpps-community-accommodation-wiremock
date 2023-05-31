@@ -144,7 +144,7 @@
     "surname": "Cassin",
     "preferredName": "Ana",
     "dateOfBirth": "2022-03-14",
-    "gender": "Other",
+    "gender": "Female",
     "otherIds": {
       "crn": "5EC66UT",
       "nomsNumber": "530X5EC",
@@ -178,7 +178,7 @@
     "surname": "Kovacek",
     "preferredName": "Javonte",
     "dateOfBirth": "2022-10-01",
-    "gender": "Other",
+    "gender": "Female",
     "otherIds": {
       "crn": "8LO3HSH",
       "nomsNumber": "JD5CLIA",
@@ -450,7 +450,7 @@
     "surname": "Ledner",
     "preferredName": "Gabriella",
     "dateOfBirth": "2022-12-10",
-    "gender": "Other",
+    "gender": "Female",
     "otherIds": {
       "crn": "N6OUTAY",
       "nomsNumber": "HIR0PIN",
