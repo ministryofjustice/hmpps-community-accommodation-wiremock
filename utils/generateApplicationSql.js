@@ -69,6 +69,7 @@ offenders.forEach(offender => {
       "is_pipe_application",
       "is_womens_application",
       "offence_id",
+      "is_withdrawn",
       "risk_ratings"
     )
   values
@@ -79,6 +80,7 @@ offenders.forEach(offender => {
       false,
       false,
       'M2500295343',
+      false,
       '{"roshRisks":{"status":"Error","value":null},"mappa":{"status":"Retrieved","value":{"level":"CAT M2/LEVEL M2","lastUpdated":[2021,2,1]}},"tier":{"status":"Retrieved","value":{"level":"D2","lastUpdated":[2022,9,5]}},"flags":{"status":"Retrieved","value":["Risk to Known Adult"]}}'
     );
   `)
@@ -90,7 +92,6 @@ offenders.forEach(offender => {
     "application_id",
     "allocated_to_user_id",
     "created_at",
-    "allocated_at",
     "schema_version"
   )
   VALUES
