@@ -92,6 +92,7 @@ offenders.forEach(offender => {
     "application_id",
     "allocated_to_user_id",
     "created_at",
+    "allocated_at",
     "schema_version"
   )
   VALUES
