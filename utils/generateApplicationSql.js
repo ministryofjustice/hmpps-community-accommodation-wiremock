@@ -93,7 +93,8 @@ offenders.forEach(offender => {
     "allocated_to_user_id",
     "created_at",
     "allocated_at",
-    "schema_version"
+    "schema_version",
+    "service"
   )
   VALUES
     (
@@ -110,7 +111,8 @@ offenders.forEach(offender => {
         WHERE
           type = 'APPROVED_PREMISES_ASSESSMENT'
         LIMIT 1
-      )
+      ),
+      'approved-premises'
     );
   `)
 })
